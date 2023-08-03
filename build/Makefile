@@ -225,6 +225,30 @@ src/Shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/Shader.cpp.s
 .PHONY : src/Shader.cpp.s
 
+src/Texture.obj: src/Texture.cpp.obj
+.PHONY : src/Texture.obj
+
+# target to build an object file
+src/Texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/Texture.cpp.obj
+.PHONY : src/Texture.cpp.obj
+
+src/Texture.i: src/Texture.cpp.i
+.PHONY : src/Texture.i
+
+# target to preprocess a source file
+src/Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/Texture.cpp.i
+.PHONY : src/Texture.cpp.i
+
+src/Texture.s: src/Texture.cpp.s
+.PHONY : src/Texture.s
+
+# target to generate assembly for a file
+src/Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/Texture.cpp.s
+.PHONY : src/Texture.cpp.s
+
 src/VertexArray.obj: src/VertexArray.cpp.obj
 .PHONY : src/VertexArray.obj
 
@@ -297,6 +321,30 @@ src/VertexBufferLayout.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/VertexBufferLayout.cpp.s
 .PHONY : src/VertexBufferLayout.cpp.s
 
+src/vendor/stb_image/stb_image.obj: src/vendor/stb_image/stb_image.cpp.obj
+.PHONY : src/vendor/stb_image/stb_image.obj
+
+# target to build an object file
+src/vendor/stb_image/stb_image.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj
+.PHONY : src/vendor/stb_image/stb_image.cpp.obj
+
+src/vendor/stb_image/stb_image.i: src/vendor/stb_image/stb_image.cpp.i
+.PHONY : src/vendor/stb_image/stb_image.i
+
+# target to preprocess a source file
+src/vendor/stb_image/stb_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.i
+.PHONY : src/vendor/stb_image/stb_image.cpp.i
+
+src/vendor/stb_image/stb_image.s: src/vendor/stb_image/stb_image.cpp.s
+.PHONY : src/vendor/stb_image/stb_image.s
+
+# target to generate assembly for a file
+src/vendor/stb_image/stb_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.s
+.PHONY : src/vendor/stb_image/stb_image.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -318,6 +366,9 @@ help:
 	@echo "... src/Shader.obj"
 	@echo "... src/Shader.i"
 	@echo "... src/Shader.s"
+	@echo "... src/Texture.obj"
+	@echo "... src/Texture.i"
+	@echo "... src/Texture.s"
 	@echo "... src/VertexArray.obj"
 	@echo "... src/VertexArray.i"
 	@echo "... src/VertexArray.s"
@@ -327,6 +378,9 @@ help:
 	@echo "... src/VertexBufferLayout.obj"
 	@echo "... src/VertexBufferLayout.i"
 	@echo "... src/VertexBufferLayout.s"
+	@echo "... src/vendor/stb_image/stb_image.obj"
+	@echo "... src/vendor/stb_image/stb_image.i"
+	@echo "... src/vendor/stb_image/stb_image.s"
 .PHONY : help
 
 

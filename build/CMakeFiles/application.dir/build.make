@@ -174,6 +174,36 @@ CMakeFiles/application.dir/src/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/application.dir/src/Shader.cpp.s"
 	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/dev/nvim/OpenGL/src/Shader.cpp -o CMakeFiles/application.dir/src/Shader.cpp.s
 
+CMakeFiles/application.dir/src/Texture.cpp.obj: CMakeFiles/application.dir/flags.make
+CMakeFiles/application.dir/src/Texture.cpp.obj: CMakeFiles/application.dir/includes_CXX.rsp
+CMakeFiles/application.dir/src/Texture.cpp.obj: C:/dev/nvim/OpenGL/src/Texture.cpp
+CMakeFiles/application.dir/src/Texture.cpp.obj: CMakeFiles/application.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/dev/nvim/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/application.dir/src/Texture.cpp.obj"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/application.dir/src/Texture.cpp.obj -MF CMakeFiles/application.dir/src/Texture.cpp.obj.d -o CMakeFiles/application.dir/src/Texture.cpp.obj -c /C/dev/nvim/OpenGL/src/Texture.cpp
+
+CMakeFiles/application.dir/src/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/application.dir/src/Texture.cpp.i"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/dev/nvim/OpenGL/src/Texture.cpp > CMakeFiles/application.dir/src/Texture.cpp.i
+
+CMakeFiles/application.dir/src/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/application.dir/src/Texture.cpp.s"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/dev/nvim/OpenGL/src/Texture.cpp -o CMakeFiles/application.dir/src/Texture.cpp.s
+
+CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj: CMakeFiles/application.dir/flags.make
+CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj: CMakeFiles/application.dir/includes_CXX.rsp
+CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj: C:/dev/nvim/OpenGL/src/vendor/stb_image/stb_image.cpp
+CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj: CMakeFiles/application.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/dev/nvim/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj -MF CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj.d -o CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj -c /C/dev/nvim/OpenGL/src/vendor/stb_image/stb_image.cpp
+
+CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.i"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/dev/nvim/OpenGL/src/vendor/stb_image/stb_image.cpp > CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.i
+
+CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.s"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/dev/nvim/OpenGL/src/vendor/stb_image/stb_image.cpp -o CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.s
+
 # Object files for target application
 application_OBJECTS = \
 "CMakeFiles/application.dir/src/Application.cpp.obj" \
@@ -182,7 +212,9 @@ application_OBJECTS = \
 "CMakeFiles/application.dir/src/VertexArray.cpp.obj" \
 "CMakeFiles/application.dir/src/VertexBuffer.cpp.obj" \
 "CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj" \
-"CMakeFiles/application.dir/src/Shader.cpp.obj"
+"CMakeFiles/application.dir/src/Shader.cpp.obj" \
+"CMakeFiles/application.dir/src/Texture.cpp.obj" \
+"CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj"
 
 # External object files for target application
 application_EXTERNAL_OBJECTS =
@@ -194,10 +226,12 @@ application.exe: CMakeFiles/application.dir/src/VertexArray.cpp.obj
 application.exe: CMakeFiles/application.dir/src/VertexBuffer.cpp.obj
 application.exe: CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj
 application.exe: CMakeFiles/application.dir/src/Shader.cpp.obj
+application.exe: CMakeFiles/application.dir/src/Texture.cpp.obj
+application.exe: CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj
 application.exe: CMakeFiles/application.dir/build.make
 application.exe: CMakeFiles/application.dir/linkLibs.rsp
 application.exe: CMakeFiles/application.dir/objects1
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/C/dev/nvim/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable application.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/C/dev/nvim/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable application.exe"
 	/C/Users/janob/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/bin/cmake.exe -E rm -f CMakeFiles/application.dir/objects.a
 	/C/GNAT/2021/bin/ar.exe qc CMakeFiles/application.dir/objects.a @CMakeFiles/application.dir/objects1
 	/C/GNAT/2021/bin/c++.exe -static -Wl,--whole-archive CMakeFiles/application.dir/objects.a -Wl,--no-whole-archive -o application.exe -Wl,--out-implib,libapplication.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/application.dir/linkLibs.rsp

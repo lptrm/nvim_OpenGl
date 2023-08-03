@@ -12,9 +12,11 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/dev/nvim/OpenGL/src/IndexBuffer.cpp" "CMakeFiles/application.dir/src/IndexBuffer.cpp.obj" "gcc" "CMakeFiles/application.dir/src/IndexBuffer.cpp.obj.d"
   "C:/dev/nvim/OpenGL/src/Renderer.cpp" "CMakeFiles/application.dir/src/Renderer.cpp.obj" "gcc" "CMakeFiles/application.dir/src/Renderer.cpp.obj.d"
   "C:/dev/nvim/OpenGL/src/Shader.cpp" "CMakeFiles/application.dir/src/Shader.cpp.obj" "gcc" "CMakeFiles/application.dir/src/Shader.cpp.obj.d"
+  "C:/dev/nvim/OpenGL/src/Texture.cpp" "CMakeFiles/application.dir/src/Texture.cpp.obj" "gcc" "CMakeFiles/application.dir/src/Texture.cpp.obj.d"
   "C:/dev/nvim/OpenGL/src/VertexArray.cpp" "CMakeFiles/application.dir/src/VertexArray.cpp.obj" "gcc" "CMakeFiles/application.dir/src/VertexArray.cpp.obj.d"
   "C:/dev/nvim/OpenGL/src/VertexBuffer.cpp" "CMakeFiles/application.dir/src/VertexBuffer.cpp.obj" "gcc" "CMakeFiles/application.dir/src/VertexBuffer.cpp.obj.d"
   "C:/dev/nvim/OpenGL/src/VertexBufferLayout.cpp" "CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj" "gcc" "CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj.d"
+  "C:/dev/nvim/OpenGL/src/vendor/stb_image/stb_image.cpp" "CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj" "gcc" "CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj.d"
   )
 
 # Targets to which this target links.

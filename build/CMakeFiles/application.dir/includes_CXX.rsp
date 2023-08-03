@@ -1,1 +1,1 @@
--IC:/dev/nvim/OpenGL/Depencies/GLEW/include -IC:/dev/nvim/OpenGL/Depencies/GLFW/include
+-IC:/dev/nvim/OpenGL/Depencies/GLEW/include -IC:/dev/nvim/OpenGL/Depencies/GLFW/include -IC:/dev/nvim/OpenGL/src/vendor

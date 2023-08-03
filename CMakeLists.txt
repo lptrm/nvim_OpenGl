@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Füge die Pfade für die Header-Dateien hinzu
 include_directories(Depencies/GLEW/include)
 include_directories(Depencies/GLFW/include)
+include_directories(src/vendor)
 
 add_definitions(-DGLEW_STATIC)
 
@@ -20,6 +21,8 @@ set(SOURCES
  src/VertexBuffer.cpp
  src/VertexBufferLayout.cpp
  src/Shader.cpp
+ src/Texture.cpp
+ src/vendor/stb_image/stb_image.cpp
   )
 
 # Füge die Bibliotheksverzeichnisse hinzu (jetzt relativ zum Projektverzeichnis)
