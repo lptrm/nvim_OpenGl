@@ -119,11 +119,13 @@ CMakeFiles/application.dir/src/Shader.cpp.obj: \
  c:\gnat\2021\include\c++\10.3.1\bits\enable_special_members.h \
  c:\gnat\2021\include\c++\10.3.1\bits\unordered_map.h \
  c:\gnat\2021\include\c++\10.3.1\bits\erase_if.h \
- C:/dev/nvim/OpenGL/src/Renderer.h \
+ C:/dev/nvim/OpenGL/src/Renderer.h C:/dev/nvim/OpenGL/src/IndexBuffer.h \
  C:/dev/nvim/OpenGL/Depencies/GLEW/include/gl/glew.h \
  c:\gnat\2021\x86_64-w64-mingw32\include\inttypes.h \
  c:\gnat\2021\x86_64-w64-mingw32\include\gl\glu.h \
  c:\gnat\2021\x86_64-w64-mingw32\include\gl\gl.h \
+ C:/dev/nvim/OpenGL/src/VertexArray.h \
+ C:/dev/nvim/OpenGL/src/VertexBuffer.h \
  c:\gnat\2021\include\c++\10.3.1\fstream \
  c:\gnat\2021\include\c++\10.3.1\istream \
  c:\gnat\2021\include\c++\10.3.1\ios \

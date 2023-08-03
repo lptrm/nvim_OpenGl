@@ -11,14 +11,13 @@
 //
 #include <fstream>
 //
-#include <sstream>
-
 #include "IndexBuffer.h"
 #include "Renderer.h"
 #include "Shader.h"
 #include "VertexArray.h"
 #include "VertexBuffer.h"
-
+#include "VertexBufferLayout.h"
+#include <sstream>
 
 void ClearAll() {
   GLCALL(glUseProgram(0));
@@ -86,9 +85,10 @@ int main(void) {
     float increment = 0.05f;
     ClearAll();
     /* Loop until the user closes the window */
+    Renderer renderer;
     do {
       /* Render here */
-      GLCALL(glClear(GL_COLOR_BUFFER_BIT));
+      renderer.Clear();
       shader.Bind();
       shader.SetUniform4f("u_Color", r, 0.3f, 0.8f, 1.0f);
       /* Core Profile */
@@ -100,8 +100,8 @@ int main(void) {
       0));
       */
       ib.Bind();
-
-      GLCALL(glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr));
+      renderer.Draw(va, ib, shader);
+      // GLCALL(glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr));
       /* Swap front and back buffers */
       glfwSwapBuffers(window);
 
