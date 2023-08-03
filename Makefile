@@ -4,7 +4,7 @@ LDFLAGS = -LDepencies/GLEW/lib/Release/x64 -LDepencies/GLFW/lib-mingw-w64 -lglew
 
 all: application.exe
 
-application.exe: src/Application.cpp src/Shader.cpp src/IndexBuffer.cpp src/Renderer.cpp src/VertexArray.cpp src/VertexBuffer.cpp src/VertexBufferLayout.cpp
+application.exe: src/Application.cpp src/Shader.cpp src/IndexBuffer.cpp src/Renderer.cpp src/VertexArray.cpp src/VertexBuffer.cpp src/VertexBufferLayout.cpp src/Texture.cpp src/vendor/stb_image/stb_image.cpp
 	$(CXX) $(CXXFLAGS) $^ -o $@ $(LDFLAGS)
 
 clean:

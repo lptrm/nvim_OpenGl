@@ -14,6 +14,7 @@
 #include "IndexBuffer.h"
 #include "Renderer.h"
 #include "Shader.h"
+#include "Texture.h"
 #include "VertexArray.h"
 #include "VertexBuffer.h"
 #include "VertexBufferLayout.h"
@@ -57,23 +58,25 @@ int main(void) {
   { // scope for clearing stack allocated buffers
     // vertex positions
     float positions[] = {
-        -0.5f, -0.5f, 0.5f, -0.5f, 0.5f, 0.5f,
-
-        // -0.5f, -0.5f,
-        -0.5f, 0.5f,
-        //  0.5f, 0.5f
+        -0.5f, -0.5f, 0.0f, 0.0f, // 0
+        0.5f,  -0.5f, 1.0f, 0.0f, // 1
+        0.5f,  0.5f,  1.0f, 1.0f, // 2
+        -0.5f, 0.5f,  0.0f, 1.0f  // 3
     };
     // index buffer
     unsigned int indices[] = {0, 1, 2, 0, 3, 2};
     // vertex array object
+    GLCALL(glEnable(GL_BLEND));
+    GLCALL(glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA));
 
     VertexArray va;
 
     // vertex buffer object
-    VertexBuffer vb(positions, 4 * 2 * sizeof(float));
+    VertexBuffer vb(positions, 4 * 4 * sizeof(float));
 
     // vertex buffer layout
     VertexBufferLayout layout;
+    layout.Push<float>(2);
     layout.Push<float>(2);
     va.AddBuffer(vb, layout);
 
@@ -81,6 +84,11 @@ int main(void) {
     Shader shader = Shader("res/shaders/Basic.shader");
     shader.Bind();
     shader.SetUniform4f("u_Color", 0.8f, 0.3f, 0.8f, 1.0f);
+
+    Texture texture("res/textures/texture.png");
+    texture.Bind();
+    shader.SetUniform1i("u_Texture", 0);
+
     float r = 0.0f;
     float increment = 0.05f;
     ClearAll();
