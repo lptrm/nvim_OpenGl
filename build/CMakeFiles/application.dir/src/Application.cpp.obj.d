@@ -360,5 +360,5 @@ CMakeFiles/application.dir/src/Application.cpp.obj: \
  C:/dev/nvim/OpenGL/src/IndexBuffer.h C:/dev/nvim/OpenGL/src/Renderer.h \
  C:/dev/nvim/OpenGL/Depencies/GLEW/include/gl/glew.h \
  C:/dev/nvim/OpenGL/src/Shader.h C:/dev/nvim/OpenGL/src/VertexArray.h \
- C:/dev/nvim/OpenGL/src/VertexBuffer.h \
+ C:/dev/nvim/OpenGL/src/VertexBuffer.h C:/dev/nvim/OpenGL/src/Texture.h \
  C:/dev/nvim/OpenGL/src/VertexBufferLayout.h

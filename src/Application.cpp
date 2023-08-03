@@ -19,6 +19,9 @@
 #include "VertexBuffer.h"
 #include "VertexBufferLayout.h"
 #include <sstream>
+// for maths :D
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
 
 void ClearAll() {
   GLCALL(glUseProgram(0));
@@ -39,7 +42,7 @@ int main(void) {
   glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
   /* Create a windowed mode window and its OpenGL context */
-  window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
+  window = glfwCreateWindow(1024, 768, "Hello World", NULL, NULL);
   if (!window) {
     glfwTerminate();
     return -1;
@@ -57,16 +60,29 @@ int main(void) {
   std::cout << glGetString(GL_VERSION) << std::endl;
   { // scope for clearing stack allocated buffers
     // vertex positions
+    /*
     float positions[] = {
         -0.5f, -0.5f, 0.0f, 0.0f, // 0
         0.5f,  -0.5f, 1.0f, 0.0f, // 1
         0.5f,  0.5f,  1.0f, 1.0f, // 2
         -0.5f, 0.5f,  0.0f, 1.0f  // 3
     };
+    */
+    float positions[] = {
+        -1.0f, -1.0f, 0.0f, 0.0f, // 0
+        1.0f,  -1.0f, 1.0f, 0.0f, // 1
+        1.0f,  1.0f,  1.0f, 1.0f, // 2
+        -1.0f, 1.0f,  0.0f, 1.0f  // 3
+    };
+
     // index buffer
     unsigned int indices[] = {0, 1, 2, 0, 3, 2};
     // vertex array object
     GLCALL(glEnable(GL_BLEND));
+    // takes the source alpha value and multiplies it by the source color
+    // value, and then adds it to the destination color value multiplied by
+    // one minus the source alpha value. (add is chosen per default)
+    // TODO: practice on paper
     GLCALL(glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA));
 
     VertexArray va;
@@ -81,14 +97,17 @@ int main(void) {
     va.AddBuffer(vb, layout);
 
     IndexBuffer ib(indices, 6);
+
+    glm::mat4 proj = glm::ortho(-2.0f, 2.0f, -1.5f, 1.5f, -1.0f, 1.0f);
+
     Shader shader = Shader("res/shaders/Basic.shader");
     shader.Bind();
-    shader.SetUniform4f("u_Color", 0.8f, 0.3f, 0.8f, 1.0f);
+    // shader.SetUniform4f("u_Color", 0.8f, 0.3f, 0.8f, 1.0f);
 
     Texture texture("res/textures/texture.png");
     texture.Bind();
     shader.SetUniform1i("u_Texture", 0);
-
+    shader.SetUniformMat4f("u_MVP", proj);
     float r = 0.0f;
     float increment = 0.05f;
     ClearAll();
@@ -98,7 +117,7 @@ int main(void) {
       /* Render here */
       renderer.Clear();
       shader.Bind();
-      shader.SetUniform4f("u_Color", r, 0.3f, 0.8f, 1.0f);
+      // shader.SetUniform4f("u_Color", r, 0.3f, 0.8f, 1.0f);
       /* Core Profile */
       va.Bind();
       /* Compat Profile

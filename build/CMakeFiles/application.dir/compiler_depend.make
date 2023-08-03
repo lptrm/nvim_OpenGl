@@ -365,6 +365,7 @@ CMakeFiles/application.dir/src/Application.cpp.obj: C:/dev/nvim/OpenGL/src/Appli
   C:/dev/nvim/OpenGL/src/Shader.h \
   C:/dev/nvim/OpenGL/src/VertexArray.h \
   C:/dev/nvim/OpenGL/src/VertexBuffer.h \
+  C:/dev/nvim/OpenGL/src/Texture.h \
   C:/dev/nvim/OpenGL/src/VertexBufferLayout.h
 
 CMakeFiles/application.dir/src/IndexBuffer.cpp.obj: C:/dev/nvim/OpenGL/src/IndexBuffer.cpp \
@@ -384,35 +385,33 @@ CMakeFiles/application.dir/src/IndexBuffer.cpp.obj: C:/dev/nvim/OpenGL/src/Index
   C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stddef.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/stddef.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/glu.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/GL/gl.h
-
-CMakeFiles/application.dir/src/Renderer.cpp.obj: C:/dev/nvim/OpenGL/src/Renderer.cpp \
-  C:/dev/nvim/OpenGL/src/Renderer.h \
-  C:/dev/nvim/OpenGL/Depencies/GLEW/include/GL/glew.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/inttypes.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/vadefs.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stdint.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/stdint.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stddef.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/stddef.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/GL/glu.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/gl.h \
-  C:/GNAT/2021/include/c++/10.3.1/iostream \
+  C:/dev/nvim/OpenGL/src/Shader.h \
+  C:/GNAT/2021/include/c++/10.3.1/string \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++config.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/os_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/pstl/pstl_config.h \
-  C:/GNAT/2021/include/c++/10.3.1/ostream \
-  C:/GNAT/2021/include/c++/10.3.1/ios \
-  C:/GNAT/2021/include/c++/10.3.1/iosfwd \
   C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/functexcept.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/exception_defines.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/numeric_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_pair.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/move.h \
+  C:/GNAT/2021/include/c++/10.3.1/type_traits \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator_base_types.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator_base_funcs.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/concept_check.h \
+  C:/GNAT/2021/include/c++/10.3.1/debug/assertions.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/ptr_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/debug/debug.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/predefined_ops.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/postypes.h \
   C:/GNAT/2021/include/c++/10.3.1/cwchar \
   C:/GNAT/2021/x86_64-w64-mingw32/include/wchar.h \
@@ -422,42 +421,37 @@ CMakeFiles/application.dir/src/Renderer.cpp.obj: C:/dev/nvim/OpenGL/src/Renderer
   C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_stat64.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/swprintf.inl \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdint \
+  C:/GNAT/2021/include/c++/10.3.1/bits/allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/new_allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/new \
   C:/GNAT/2021/include/c++/10.3.1/exception \
   C:/GNAT/2021/include/c++/10.3.1/bits/exception.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/exception_ptr.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/exception_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/cxxabi_init_exception.h \
   C:/GNAT/2021/include/c++/10.3.1/typeinfo \
   C:/GNAT/2021/include/c++/10.3.1/bits/hash_bytes.h \
-  C:/GNAT/2021/include/c++/10.3.1/new \
   C:/GNAT/2021/include/c++/10.3.1/bits/nested_exception.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/move.h \
-  C:/GNAT/2021/include/c++/10.3.1/type_traits \
-  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/functexcept.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
-  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
-  C:/GNAT/2021/include/c++/10.3.1/ext/numeric_traits.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stl_pair.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator_base_types.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator_base_funcs.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/concept_check.h \
-  C:/GNAT/2021/include/c++/10.3.1/debug/assertions.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/ptr_traits.h \
-  C:/GNAT/2021/include/c++/10.3.1/debug/debug.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/predefined_ops.h \
-  C:/GNAT/2021/include/c++/10.3.1/cstdint \
   C:/GNAT/2021/include/c++/10.3.1/bits/localefwd.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++locale.h \
   C:/GNAT/2021/include/c++/10.3.1/clocale \
   C:/GNAT/2021/x86_64-w64-mingw32/include/locale.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/stdio.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/iosfwd \
   C:/GNAT/2021/include/c++/10.3.1/cctype \
   C:/GNAT/2021/x86_64-w64-mingw32/include/ctype.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/ios_base.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/ostream_insert.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cxxabi_forced.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_function.h \
+  C:/GNAT/2021/include/c++/10.3.1/backward/binders.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/range_access.h \
+  C:/GNAT/2021/include/c++/10.3.1/initializer_list \
+  C:/GNAT/2021/include/c++/10.3.1/bits/iterator_concepts.h \
+  C:/GNAT/2021/include/c++/10.3.1/concepts \
+  C:/GNAT/2021/include/c++/10.3.1/bits/range_cmp.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/basic_string.h \
   C:/GNAT/2021/include/c++/10.3.1/ext/atomicity.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr-default.h \
@@ -473,21 +467,6 @@ CMakeFiles/application.dir/src/Renderer.cpp.obj: C:/dev/nvim/OpenGL/src/Renderer
   C:/GNAT/2021/x86_64-w64-mingw32/include/sys/timeb.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/atomic_word.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/locale_classes.h \
-  C:/GNAT/2021/include/c++/10.3.1/string \
-  C:/GNAT/2021/include/c++/10.3.1/bits/allocator.h \
-  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++allocator.h \
-  C:/GNAT/2021/include/c++/10.3.1/ext/new_allocator.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/ostream_insert.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/cxxabi_forced.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stl_function.h \
-  C:/GNAT/2021/include/c++/10.3.1/backward/binders.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/range_access.h \
-  C:/GNAT/2021/include/c++/10.3.1/initializer_list \
-  C:/GNAT/2021/include/c++/10.3.1/bits/iterator_concepts.h \
-  C:/GNAT/2021/include/c++/10.3.1/concepts \
-  C:/GNAT/2021/include/c++/10.3.1/bits/range_cmp.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/basic_string.h \
   C:/GNAT/2021/include/c++/10.3.1/ext/alloc_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/alloc_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/stl_construct.h \
@@ -500,6 +479,159 @@ CMakeFiles/application.dir/src/Renderer.cpp.obj: C:/dev/nvim/OpenGL/src/Renderer
   C:/GNAT/2021/x86_64-w64-mingw32/include/errno.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/charconv.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/basic_string.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/unordered_map \
+  C:/GNAT/2021/include/c++/10.3.1/ext/aligned_buffer.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/hashtable.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/hashtable_policy.h \
+  C:/GNAT/2021/include/c++/10.3.1/tuple \
+  C:/GNAT/2021/include/c++/10.3.1/utility \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_relops.h \
+  C:/GNAT/2021/include/c++/10.3.1/array \
+  C:/GNAT/2021/include/c++/10.3.1/bits/uses_allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/invoke.h \
+  C:/GNAT/2021/include/c++/10.3.1/limits \
+  C:/GNAT/2021/include/c++/10.3.1/bits/node_handle.h \
+  C:/GNAT/2021/include/c++/10.3.1/optional \
+  C:/GNAT/2021/include/c++/10.3.1/bits/enable_special_members.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/unordered_map.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/erase_if.h \
+  C:/dev/nvim/OpenGL/src/VertexArray.h \
+  C:/dev/nvim/OpenGL/src/VertexBuffer.h
+
+CMakeFiles/application.dir/src/Renderer.cpp.obj: C:/dev/nvim/OpenGL/src/Renderer.cpp \
+  C:/dev/nvim/OpenGL/src/Renderer.h \
+  C:/dev/nvim/OpenGL/src/IndexBuffer.h \
+  C:/dev/nvim/OpenGL/Depencies/GLEW/include/GL/glew.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/inttypes.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/vadefs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stdint.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdint.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stddef.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stddef.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/GL/glu.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/GL/gl.h \
+  C:/dev/nvim/OpenGL/src/Shader.h \
+  C:/GNAT/2021/include/c++/10.3.1/string \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++config.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/GNAT/2021/include/c++/10.3.1/pstl/pstl_config.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/functexcept.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/exception_defines.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/numeric_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_pair.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/move.h \
+  C:/GNAT/2021/include/c++/10.3.1/type_traits \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator_base_types.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator_base_funcs.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/concept_check.h \
+  C:/GNAT/2021/include/c++/10.3.1/debug/assertions.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/ptr_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/debug/debug.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/predefined_ops.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/postypes.h \
+  C:/GNAT/2021/include/c++/10.3.1/cwchar \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/wchar.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdint \
+  C:/GNAT/2021/include/c++/10.3.1/bits/allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/new_allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/new \
+  C:/GNAT/2021/include/c++/10.3.1/exception \
+  C:/GNAT/2021/include/c++/10.3.1/bits/exception.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/exception_ptr.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cxxabi_init_exception.h \
+  C:/GNAT/2021/include/c++/10.3.1/typeinfo \
+  C:/GNAT/2021/include/c++/10.3.1/bits/hash_bytes.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/nested_exception.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/localefwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/GNAT/2021/include/c++/10.3.1/clocale \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/locale.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdio.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/iosfwd \
+  C:/GNAT/2021/include/c++/10.3.1/cctype \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/ctype.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/ostream_insert.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cxxabi_forced.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_function.h \
+  C:/GNAT/2021/include/c++/10.3.1/backward/binders.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/range_access.h \
+  C:/GNAT/2021/include/c++/10.3.1/initializer_list \
+  C:/GNAT/2021/include/c++/10.3.1/bits/iterator_concepts.h \
+  C:/GNAT/2021/include/c++/10.3.1/concepts \
+  C:/GNAT/2021/include/c++/10.3.1/bits/range_cmp.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/basic_string.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/atomicity.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/alloc_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/alloc_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_construct.h \
+  C:/GNAT/2021/include/c++/10.3.1/string_view \
+  C:/GNAT/2021/include/c++/10.3.1/bits/functional_hash.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/string_view.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/ext/string_conversions.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdio \
+  C:/GNAT/2021/include/c++/10.3.1/cerrno \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/errno.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/charconv.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/basic_string.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/unordered_map \
+  C:/GNAT/2021/include/c++/10.3.1/ext/aligned_buffer.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/hashtable.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/hashtable_policy.h \
+  C:/GNAT/2021/include/c++/10.3.1/tuple \
+  C:/GNAT/2021/include/c++/10.3.1/utility \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_relops.h \
+  C:/GNAT/2021/include/c++/10.3.1/array \
+  C:/GNAT/2021/include/c++/10.3.1/bits/uses_allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/invoke.h \
+  C:/GNAT/2021/include/c++/10.3.1/limits \
+  C:/GNAT/2021/include/c++/10.3.1/bits/node_handle.h \
+  C:/GNAT/2021/include/c++/10.3.1/optional \
+  C:/GNAT/2021/include/c++/10.3.1/bits/enable_special_members.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/unordered_map.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/erase_if.h \
+  C:/dev/nvim/OpenGL/src/VertexArray.h \
+  C:/dev/nvim/OpenGL/src/VertexBuffer.h \
+  C:/GNAT/2021/include/c++/10.3.1/iostream \
+  C:/GNAT/2021/include/c++/10.3.1/ostream \
+  C:/GNAT/2021/include/c++/10.3.1/ios \
+  C:/GNAT/2021/include/c++/10.3.1/bits/ios_base.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/locale_classes.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/locale_classes.tcc \
   C:/GNAT/2021/include/c++/10.3.1/system_error \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/error_constants.h \
@@ -641,10 +773,13 @@ CMakeFiles/application.dir/src/Shader.cpp.obj: C:/dev/nvim/OpenGL/src/Shader.cpp
   C:/GNAT/2021/include/c++/10.3.1/bits/unordered_map.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/erase_if.h \
   C:/dev/nvim/OpenGL/src/Renderer.h \
+  C:/dev/nvim/OpenGL/src/IndexBuffer.h \
   C:/dev/nvim/OpenGL/Depencies/GLEW/include/GL/glew.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/inttypes.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/glu.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/gl.h \
+  C:/dev/nvim/OpenGL/src/VertexArray.h \
+  C:/dev/nvim/OpenGL/src/VertexBuffer.h \
   C:/GNAT/2021/include/c++/10.3.1/fstream \
   C:/GNAT/2021/include/c++/10.3.1/istream \
   C:/GNAT/2021/include/c++/10.3.1/ios \
@@ -679,8 +814,8 @@ CMakeFiles/application.dir/src/Shader.cpp.obj: C:/dev/nvim/OpenGL/src/Shader.cpp
 CMakeFiles/application.dir/src/VertexArray.cpp.obj: C:/dev/nvim/OpenGL/src/VertexArray.cpp \
   C:/dev/nvim/OpenGL/src/VertexArray.h \
   C:/dev/nvim/OpenGL/src/VertexBuffer.h \
-  C:/dev/nvim/OpenGL/src/VertexBufferLayout.h \
   C:/dev/nvim/OpenGL/src/Renderer.h \
+  C:/dev/nvim/OpenGL/src/IndexBuffer.h \
   C:/dev/nvim/OpenGL/Depencies/GLEW/include/GL/glew.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/inttypes.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/crtdefs.h \
@@ -696,12 +831,16 @@ CMakeFiles/application.dir/src/VertexArray.cpp.obj: C:/dev/nvim/OpenGL/src/Verte
   C:/GNAT/2021/x86_64-w64-mingw32/include/stddef.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/glu.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/gl.h \
-  C:/GNAT/2021/include/c++/10.3.1/vector \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h \
+  C:/dev/nvim/OpenGL/src/Shader.h \
+  C:/GNAT/2021/include/c++/10.3.1/string \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++config.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/os_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/pstl/pstl_config.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/functexcept.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/exception_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
@@ -718,6 +857,16 @@ CMakeFiles/application.dir/src/VertexArray.cpp.obj: C:/dev/nvim/OpenGL/src/Verte
   C:/GNAT/2021/include/c++/10.3.1/bits/ptr_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/debug/debug.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/predefined_ops.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/postypes.h \
+  C:/GNAT/2021/include/c++/10.3.1/cwchar \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/wchar.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdint \
   C:/GNAT/2021/include/c++/10.3.1/bits/allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/ext/new_allocator.h \
@@ -729,43 +878,79 @@ CMakeFiles/application.dir/src/VertexArray.cpp.obj: C:/dev/nvim/OpenGL/src/Verte
   C:/GNAT/2021/include/c++/10.3.1/typeinfo \
   C:/GNAT/2021/include/c++/10.3.1/bits/hash_bytes.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/nested_exception.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stl_construct.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stl_uninitialized.h \
-  C:/GNAT/2021/include/c++/10.3.1/ext/alloc_traits.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/alloc_traits.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stl_vector.h \
-  C:/GNAT/2021/include/c++/10.3.1/initializer_list \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stl_bvector.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/functional_hash.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/localefwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/GNAT/2021/include/c++/10.3.1/clocale \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/locale.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdio.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/iosfwd \
+  C:/GNAT/2021/include/c++/10.3.1/cctype \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/ctype.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/ostream_insert.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cxxabi_forced.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_function.h \
+  C:/GNAT/2021/include/c++/10.3.1/backward/binders.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/range_access.h \
+  C:/GNAT/2021/include/c++/10.3.1/initializer_list \
   C:/GNAT/2021/include/c++/10.3.1/bits/iterator_concepts.h \
   C:/GNAT/2021/include/c++/10.3.1/concepts \
   C:/GNAT/2021/include/c++/10.3.1/bits/range_cmp.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/basic_string.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/atomicity.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/alloc_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/alloc_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_construct.h \
+  C:/GNAT/2021/include/c++/10.3.1/string_view \
+  C:/GNAT/2021/include/c++/10.3.1/bits/functional_hash.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/string_view.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/ext/string_conversions.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdio \
+  C:/GNAT/2021/include/c++/10.3.1/cerrno \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/errno.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/charconv.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/basic_string.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/unordered_map \
+  C:/GNAT/2021/include/c++/10.3.1/ext/aligned_buffer.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/hashtable.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/hashtable_policy.h \
+  C:/GNAT/2021/include/c++/10.3.1/tuple \
+  C:/GNAT/2021/include/c++/10.3.1/utility \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_relops.h \
+  C:/GNAT/2021/include/c++/10.3.1/array \
+  C:/GNAT/2021/include/c++/10.3.1/bits/uses_allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/invoke.h \
+  C:/GNAT/2021/include/c++/10.3.1/limits \
+  C:/GNAT/2021/include/c++/10.3.1/bits/node_handle.h \
+  C:/GNAT/2021/include/c++/10.3.1/optional \
+  C:/GNAT/2021/include/c++/10.3.1/bits/enable_special_members.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/unordered_map.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/erase_if.h \
+  C:/dev/nvim/OpenGL/src/VertexBufferLayout.h \
+  C:/GNAT/2021/include/c++/10.3.1/vector \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_uninitialized.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_vector.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_bvector.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/vector.tcc
 
 CMakeFiles/application.dir/src/VertexBuffer.cpp.obj: C:/dev/nvim/OpenGL/src/VertexBuffer.cpp \
   C:/dev/nvim/OpenGL/src/VertexBuffer.h \
   C:/dev/nvim/OpenGL/src/Renderer.h \
-  C:/dev/nvim/OpenGL/Depencies/GLEW/include/GL/glew.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/inttypes.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/vadefs.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stdint.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/stdint.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stddef.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/stddef.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/GL/glu.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/GL/gl.h
-
-CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj: C:/dev/nvim/OpenGL/src/VertexBufferLayout.cpp \
-  C:/dev/nvim/OpenGL/src/VertexBufferLayout.h \
-  C:/dev/nvim/OpenGL/src/Renderer.h \
+  C:/dev/nvim/OpenGL/src/IndexBuffer.h \
   C:/dev/nvim/OpenGL/Depencies/GLEW/include/GL/glew.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/inttypes.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/crtdefs.h \
@@ -781,12 +966,16 @@ CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj: C:/dev/nvim/OpenGL/sr
   C:/GNAT/2021/x86_64-w64-mingw32/include/stddef.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/glu.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/gl.h \
-  C:/GNAT/2021/include/c++/10.3.1/vector \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h \
+  C:/dev/nvim/OpenGL/src/Shader.h \
+  C:/GNAT/2021/include/c++/10.3.1/string \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++config.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/os_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/pstl/pstl_config.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/functexcept.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/exception_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
@@ -803,6 +992,16 @@ CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj: C:/dev/nvim/OpenGL/sr
   C:/GNAT/2021/include/c++/10.3.1/bits/ptr_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/debug/debug.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/predefined_ops.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/postypes.h \
+  C:/GNAT/2021/include/c++/10.3.1/cwchar \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/wchar.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdint \
   C:/GNAT/2021/include/c++/10.3.1/bits/allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/ext/new_allocator.h \
@@ -814,19 +1013,204 @@ CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj: C:/dev/nvim/OpenGL/sr
   C:/GNAT/2021/include/c++/10.3.1/typeinfo \
   C:/GNAT/2021/include/c++/10.3.1/bits/hash_bytes.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/nested_exception.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stl_construct.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stl_uninitialized.h \
-  C:/GNAT/2021/include/c++/10.3.1/ext/alloc_traits.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/alloc_traits.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stl_vector.h \
-  C:/GNAT/2021/include/c++/10.3.1/initializer_list \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stl_bvector.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/functional_hash.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/localefwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/GNAT/2021/include/c++/10.3.1/clocale \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/locale.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdio.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/iosfwd \
+  C:/GNAT/2021/include/c++/10.3.1/cctype \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/ctype.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/ostream_insert.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cxxabi_forced.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_function.h \
+  C:/GNAT/2021/include/c++/10.3.1/backward/binders.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/range_access.h \
+  C:/GNAT/2021/include/c++/10.3.1/initializer_list \
   C:/GNAT/2021/include/c++/10.3.1/bits/iterator_concepts.h \
   C:/GNAT/2021/include/c++/10.3.1/concepts \
   C:/GNAT/2021/include/c++/10.3.1/bits/range_cmp.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/basic_string.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/atomicity.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/alloc_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/alloc_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_construct.h \
+  C:/GNAT/2021/include/c++/10.3.1/string_view \
+  C:/GNAT/2021/include/c++/10.3.1/bits/functional_hash.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/string_view.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/ext/string_conversions.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdio \
+  C:/GNAT/2021/include/c++/10.3.1/cerrno \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/errno.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/charconv.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/basic_string.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/unordered_map \
+  C:/GNAT/2021/include/c++/10.3.1/ext/aligned_buffer.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/hashtable.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/hashtable_policy.h \
+  C:/GNAT/2021/include/c++/10.3.1/tuple \
+  C:/GNAT/2021/include/c++/10.3.1/utility \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_relops.h \
+  C:/GNAT/2021/include/c++/10.3.1/array \
+  C:/GNAT/2021/include/c++/10.3.1/bits/uses_allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/invoke.h \
+  C:/GNAT/2021/include/c++/10.3.1/limits \
+  C:/GNAT/2021/include/c++/10.3.1/bits/node_handle.h \
+  C:/GNAT/2021/include/c++/10.3.1/optional \
+  C:/GNAT/2021/include/c++/10.3.1/bits/enable_special_members.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/unordered_map.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/erase_if.h \
+  C:/dev/nvim/OpenGL/src/VertexArray.h
+
+CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj: C:/dev/nvim/OpenGL/src/VertexBufferLayout.cpp \
+  C:/dev/nvim/OpenGL/src/VertexBufferLayout.h \
+  C:/dev/nvim/OpenGL/src/Renderer.h \
+  C:/dev/nvim/OpenGL/src/IndexBuffer.h \
+  C:/dev/nvim/OpenGL/Depencies/GLEW/include/GL/glew.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/inttypes.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/vadefs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stdint.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdint.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stddef.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stddef.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/GL/glu.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/GL/gl.h \
+  C:/dev/nvim/OpenGL/src/Shader.h \
+  C:/GNAT/2021/include/c++/10.3.1/string \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++config.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/GNAT/2021/include/c++/10.3.1/pstl/pstl_config.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/functexcept.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/exception_defines.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/numeric_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_pair.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/move.h \
+  C:/GNAT/2021/include/c++/10.3.1/type_traits \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator_base_types.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator_base_funcs.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/concept_check.h \
+  C:/GNAT/2021/include/c++/10.3.1/debug/assertions.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/ptr_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/debug/debug.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/predefined_ops.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/postypes.h \
+  C:/GNAT/2021/include/c++/10.3.1/cwchar \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/wchar.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdint \
+  C:/GNAT/2021/include/c++/10.3.1/bits/allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/new_allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/new \
+  C:/GNAT/2021/include/c++/10.3.1/exception \
+  C:/GNAT/2021/include/c++/10.3.1/bits/exception.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/exception_ptr.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cxxabi_init_exception.h \
+  C:/GNAT/2021/include/c++/10.3.1/typeinfo \
+  C:/GNAT/2021/include/c++/10.3.1/bits/hash_bytes.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/nested_exception.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/localefwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/GNAT/2021/include/c++/10.3.1/clocale \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/locale.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdio.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/iosfwd \
+  C:/GNAT/2021/include/c++/10.3.1/cctype \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/ctype.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/ostream_insert.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cxxabi_forced.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_function.h \
+  C:/GNAT/2021/include/c++/10.3.1/backward/binders.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/range_access.h \
+  C:/GNAT/2021/include/c++/10.3.1/initializer_list \
+  C:/GNAT/2021/include/c++/10.3.1/bits/iterator_concepts.h \
+  C:/GNAT/2021/include/c++/10.3.1/concepts \
+  C:/GNAT/2021/include/c++/10.3.1/bits/range_cmp.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/basic_string.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/atomicity.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/alloc_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/alloc_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_construct.h \
+  C:/GNAT/2021/include/c++/10.3.1/string_view \
+  C:/GNAT/2021/include/c++/10.3.1/bits/functional_hash.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/string_view.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/ext/string_conversions.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdio \
+  C:/GNAT/2021/include/c++/10.3.1/cerrno \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/errno.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/charconv.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/basic_string.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/unordered_map \
+  C:/GNAT/2021/include/c++/10.3.1/ext/aligned_buffer.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/hashtable.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/hashtable_policy.h \
+  C:/GNAT/2021/include/c++/10.3.1/tuple \
+  C:/GNAT/2021/include/c++/10.3.1/utility \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_relops.h \
+  C:/GNAT/2021/include/c++/10.3.1/array \
+  C:/GNAT/2021/include/c++/10.3.1/bits/uses_allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/invoke.h \
+  C:/GNAT/2021/include/c++/10.3.1/limits \
+  C:/GNAT/2021/include/c++/10.3.1/bits/node_handle.h \
+  C:/GNAT/2021/include/c++/10.3.1/optional \
+  C:/GNAT/2021/include/c++/10.3.1/bits/enable_special_members.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/unordered_map.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/erase_if.h \
+  C:/dev/nvim/OpenGL/src/VertexArray.h \
+  C:/dev/nvim/OpenGL/src/VertexBuffer.h \
+  C:/GNAT/2021/include/c++/10.3.1/vector \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_uninitialized.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_vector.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_bvector.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/vector.tcc
 
 
@@ -1553,6 +1937,8 @@ C:/GNAT/2021/include/c++/10.3.1/bits/fstream.tcc:
 C:/dev/nvim/OpenGL/src/Shader.h:
 
 C:/dev/nvim/OpenGL/src/VertexArray.h:
+
+C:/dev/nvim/OpenGL/src/Texture.h:
 
 C:/dev/nvim/OpenGL/src/Renderer.cpp:
 
