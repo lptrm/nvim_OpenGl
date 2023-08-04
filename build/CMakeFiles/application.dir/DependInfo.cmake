@@ -16,6 +16,13 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/dev/nvim/OpenGL/src/VertexArray.cpp" "CMakeFiles/application.dir/src/VertexArray.cpp.obj" "gcc" "CMakeFiles/application.dir/src/VertexArray.cpp.obj.d"
   "C:/dev/nvim/OpenGL/src/VertexBuffer.cpp" "CMakeFiles/application.dir/src/VertexBuffer.cpp.obj" "gcc" "CMakeFiles/application.dir/src/VertexBuffer.cpp.obj.d"
   "C:/dev/nvim/OpenGL/src/VertexBufferLayout.cpp" "CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj" "gcc" "CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj.d"
+  "C:/dev/nvim/OpenGL/src/vendor/imgui/imgui.cpp" "CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.obj" "gcc" "CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.obj.d"
+  "C:/dev/nvim/OpenGL/src/vendor/imgui/imgui_demo.cpp" "CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.obj" "gcc" "CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.obj.d"
+  "C:/dev/nvim/OpenGL/src/vendor/imgui/imgui_draw.cpp" "CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.obj" "gcc" "CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.obj.d"
+  "C:/dev/nvim/OpenGL/src/vendor/imgui/imgui_impl_glfw.cpp" "CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.obj" "gcc" "CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.obj.d"
+  "C:/dev/nvim/OpenGL/src/vendor/imgui/imgui_impl_opengl3.cpp" "CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.obj" "gcc" "CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.obj.d"
+  "C:/dev/nvim/OpenGL/src/vendor/imgui/imgui_tables.cpp" "CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.obj" "gcc" "CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.obj.d"
+  "C:/dev/nvim/OpenGL/src/vendor/imgui/imgui_widgets.cpp" "CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.obj" "gcc" "CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.obj.d"
   "C:/dev/nvim/OpenGL/src/vendor/stb_image/stb_image.cpp" "CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj" "gcc" "CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj.d"
   )
 

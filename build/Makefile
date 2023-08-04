@@ -321,6 +321,174 @@ src/VertexBufferLayout.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/VertexBufferLayout.cpp.s
 .PHONY : src/VertexBufferLayout.cpp.s
 
+src/vendor/imgui/imgui.obj: src/vendor/imgui/imgui.cpp.obj
+.PHONY : src/vendor/imgui/imgui.obj
+
+# target to build an object file
+src/vendor/imgui/imgui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.obj
+.PHONY : src/vendor/imgui/imgui.cpp.obj
+
+src/vendor/imgui/imgui.i: src/vendor/imgui/imgui.cpp.i
+.PHONY : src/vendor/imgui/imgui.i
+
+# target to preprocess a source file
+src/vendor/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.i
+.PHONY : src/vendor/imgui/imgui.cpp.i
+
+src/vendor/imgui/imgui.s: src/vendor/imgui/imgui.cpp.s
+.PHONY : src/vendor/imgui/imgui.s
+
+# target to generate assembly for a file
+src/vendor/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.s
+.PHONY : src/vendor/imgui/imgui.cpp.s
+
+src/vendor/imgui/imgui_demo.obj: src/vendor/imgui/imgui_demo.cpp.obj
+.PHONY : src/vendor/imgui/imgui_demo.obj
+
+# target to build an object file
+src/vendor/imgui/imgui_demo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.obj
+.PHONY : src/vendor/imgui/imgui_demo.cpp.obj
+
+src/vendor/imgui/imgui_demo.i: src/vendor/imgui/imgui_demo.cpp.i
+.PHONY : src/vendor/imgui/imgui_demo.i
+
+# target to preprocess a source file
+src/vendor/imgui/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.i
+.PHONY : src/vendor/imgui/imgui_demo.cpp.i
+
+src/vendor/imgui/imgui_demo.s: src/vendor/imgui/imgui_demo.cpp.s
+.PHONY : src/vendor/imgui/imgui_demo.s
+
+# target to generate assembly for a file
+src/vendor/imgui/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.s
+.PHONY : src/vendor/imgui/imgui_demo.cpp.s
+
+src/vendor/imgui/imgui_draw.obj: src/vendor/imgui/imgui_draw.cpp.obj
+.PHONY : src/vendor/imgui/imgui_draw.obj
+
+# target to build an object file
+src/vendor/imgui/imgui_draw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.obj
+.PHONY : src/vendor/imgui/imgui_draw.cpp.obj
+
+src/vendor/imgui/imgui_draw.i: src/vendor/imgui/imgui_draw.cpp.i
+.PHONY : src/vendor/imgui/imgui_draw.i
+
+# target to preprocess a source file
+src/vendor/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.i
+.PHONY : src/vendor/imgui/imgui_draw.cpp.i
+
+src/vendor/imgui/imgui_draw.s: src/vendor/imgui/imgui_draw.cpp.s
+.PHONY : src/vendor/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+src/vendor/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.s
+.PHONY : src/vendor/imgui/imgui_draw.cpp.s
+
+src/vendor/imgui/imgui_impl_glfw.obj: src/vendor/imgui/imgui_impl_glfw.cpp.obj
+.PHONY : src/vendor/imgui/imgui_impl_glfw.obj
+
+# target to build an object file
+src/vendor/imgui/imgui_impl_glfw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.obj
+.PHONY : src/vendor/imgui/imgui_impl_glfw.cpp.obj
+
+src/vendor/imgui/imgui_impl_glfw.i: src/vendor/imgui/imgui_impl_glfw.cpp.i
+.PHONY : src/vendor/imgui/imgui_impl_glfw.i
+
+# target to preprocess a source file
+src/vendor/imgui/imgui_impl_glfw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.i
+.PHONY : src/vendor/imgui/imgui_impl_glfw.cpp.i
+
+src/vendor/imgui/imgui_impl_glfw.s: src/vendor/imgui/imgui_impl_glfw.cpp.s
+.PHONY : src/vendor/imgui/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+src/vendor/imgui/imgui_impl_glfw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.s
+.PHONY : src/vendor/imgui/imgui_impl_glfw.cpp.s
+
+src/vendor/imgui/imgui_impl_opengl3.obj: src/vendor/imgui/imgui_impl_opengl3.cpp.obj
+.PHONY : src/vendor/imgui/imgui_impl_opengl3.obj
+
+# target to build an object file
+src/vendor/imgui/imgui_impl_opengl3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.obj
+.PHONY : src/vendor/imgui/imgui_impl_opengl3.cpp.obj
+
+src/vendor/imgui/imgui_impl_opengl3.i: src/vendor/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : src/vendor/imgui/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+src/vendor/imgui/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : src/vendor/imgui/imgui_impl_opengl3.cpp.i
+
+src/vendor/imgui/imgui_impl_opengl3.s: src/vendor/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : src/vendor/imgui/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+src/vendor/imgui/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : src/vendor/imgui/imgui_impl_opengl3.cpp.s
+
+src/vendor/imgui/imgui_tables.obj: src/vendor/imgui/imgui_tables.cpp.obj
+.PHONY : src/vendor/imgui/imgui_tables.obj
+
+# target to build an object file
+src/vendor/imgui/imgui_tables.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.obj
+.PHONY : src/vendor/imgui/imgui_tables.cpp.obj
+
+src/vendor/imgui/imgui_tables.i: src/vendor/imgui/imgui_tables.cpp.i
+.PHONY : src/vendor/imgui/imgui_tables.i
+
+# target to preprocess a source file
+src/vendor/imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.i
+.PHONY : src/vendor/imgui/imgui_tables.cpp.i
+
+src/vendor/imgui/imgui_tables.s: src/vendor/imgui/imgui_tables.cpp.s
+.PHONY : src/vendor/imgui/imgui_tables.s
+
+# target to generate assembly for a file
+src/vendor/imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.s
+.PHONY : src/vendor/imgui/imgui_tables.cpp.s
+
+src/vendor/imgui/imgui_widgets.obj: src/vendor/imgui/imgui_widgets.cpp.obj
+.PHONY : src/vendor/imgui/imgui_widgets.obj
+
+# target to build an object file
+src/vendor/imgui/imgui_widgets.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.obj
+.PHONY : src/vendor/imgui/imgui_widgets.cpp.obj
+
+src/vendor/imgui/imgui_widgets.i: src/vendor/imgui/imgui_widgets.cpp.i
+.PHONY : src/vendor/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+src/vendor/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.i
+.PHONY : src/vendor/imgui/imgui_widgets.cpp.i
+
+src/vendor/imgui/imgui_widgets.s: src/vendor/imgui/imgui_widgets.cpp.s
+.PHONY : src/vendor/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+src/vendor/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.s
+.PHONY : src/vendor/imgui/imgui_widgets.cpp.s
+
 src/vendor/stb_image/stb_image.obj: src/vendor/stb_image/stb_image.cpp.obj
 .PHONY : src/vendor/stb_image/stb_image.obj
 
@@ -378,6 +546,27 @@ help:
 	@echo "... src/VertexBufferLayout.obj"
 	@echo "... src/VertexBufferLayout.i"
 	@echo "... src/VertexBufferLayout.s"
+	@echo "... src/vendor/imgui/imgui.obj"
+	@echo "... src/vendor/imgui/imgui.i"
+	@echo "... src/vendor/imgui/imgui.s"
+	@echo "... src/vendor/imgui/imgui_demo.obj"
+	@echo "... src/vendor/imgui/imgui_demo.i"
+	@echo "... src/vendor/imgui/imgui_demo.s"
+	@echo "... src/vendor/imgui/imgui_draw.obj"
+	@echo "... src/vendor/imgui/imgui_draw.i"
+	@echo "... src/vendor/imgui/imgui_draw.s"
+	@echo "... src/vendor/imgui/imgui_impl_glfw.obj"
+	@echo "... src/vendor/imgui/imgui_impl_glfw.i"
+	@echo "... src/vendor/imgui/imgui_impl_glfw.s"
+	@echo "... src/vendor/imgui/imgui_impl_opengl3.obj"
+	@echo "... src/vendor/imgui/imgui_impl_opengl3.i"
+	@echo "... src/vendor/imgui/imgui_impl_opengl3.s"
+	@echo "... src/vendor/imgui/imgui_tables.obj"
+	@echo "... src/vendor/imgui/imgui_tables.i"
+	@echo "... src/vendor/imgui/imgui_tables.s"
+	@echo "... src/vendor/imgui/imgui_widgets.obj"
+	@echo "... src/vendor/imgui/imgui_widgets.i"
+	@echo "... src/vendor/imgui/imgui_widgets.s"
 	@echo "... src/vendor/stb_image/stb_image.obj"
 	@echo "... src/vendor/stb_image/stb_image.i"
 	@echo "... src/vendor/stb_image/stb_image.s"

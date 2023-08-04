@@ -204,6 +204,111 @@ CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.s"
 	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/dev/nvim/OpenGL/src/vendor/stb_image/stb_image.cpp -o CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.s
 
+CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.obj: CMakeFiles/application.dir/flags.make
+CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.obj: CMakeFiles/application.dir/includes_CXX.rsp
+CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.obj: C:/dev/nvim/OpenGL/src/vendor/imgui/imgui.cpp
+CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.obj: CMakeFiles/application.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/dev/nvim/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.obj"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.obj -MF CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.obj.d -o CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.obj -c /C/dev/nvim/OpenGL/src/vendor/imgui/imgui.cpp
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.i"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/dev/nvim/OpenGL/src/vendor/imgui/imgui.cpp > CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.i
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.s"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/dev/nvim/OpenGL/src/vendor/imgui/imgui.cpp -o CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.s
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.obj: CMakeFiles/application.dir/flags.make
+CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.obj: CMakeFiles/application.dir/includes_CXX.rsp
+CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.obj: C:/dev/nvim/OpenGL/src/vendor/imgui/imgui_demo.cpp
+CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.obj: CMakeFiles/application.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/dev/nvim/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.obj"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.obj -MF CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.obj.d -o CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.obj -c /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_demo.cpp
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.i"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_demo.cpp > CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.i
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.s"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_demo.cpp -o CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.s
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.obj: CMakeFiles/application.dir/flags.make
+CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.obj: CMakeFiles/application.dir/includes_CXX.rsp
+CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.obj: C:/dev/nvim/OpenGL/src/vendor/imgui/imgui_draw.cpp
+CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.obj: CMakeFiles/application.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/dev/nvim/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.obj"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.obj -MF CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.obj.d -o CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.obj -c /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_draw.cpp
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.i"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_draw.cpp > CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.i
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.s"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_draw.cpp -o CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.s
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.obj: CMakeFiles/application.dir/flags.make
+CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.obj: CMakeFiles/application.dir/includes_CXX.rsp
+CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.obj: C:/dev/nvim/OpenGL/src/vendor/imgui/imgui_impl_glfw.cpp
+CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.obj: CMakeFiles/application.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/dev/nvim/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.obj"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.obj -MF CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.obj.d -o CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.obj -c /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_impl_glfw.cpp
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.i"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_impl_glfw.cpp > CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.i
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.s"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_impl_glfw.cpp -o CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.s
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.obj: CMakeFiles/application.dir/flags.make
+CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.obj: CMakeFiles/application.dir/includes_CXX.rsp
+CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.obj: C:/dev/nvim/OpenGL/src/vendor/imgui/imgui_impl_opengl3.cpp
+CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.obj: CMakeFiles/application.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/dev/nvim/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.obj"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.obj -MF CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.obj.d -o CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.obj -c /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_impl_opengl3.cpp
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.i"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_impl_opengl3.cpp > CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.i
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.s"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.s
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.obj: CMakeFiles/application.dir/flags.make
+CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.obj: CMakeFiles/application.dir/includes_CXX.rsp
+CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.obj: C:/dev/nvim/OpenGL/src/vendor/imgui/imgui_tables.cpp
+CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.obj: CMakeFiles/application.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/dev/nvim/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.obj"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.obj -MF CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.obj.d -o CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.obj -c /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_tables.cpp
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.i"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_tables.cpp > CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.i
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.s"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_tables.cpp -o CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.s
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.obj: CMakeFiles/application.dir/flags.make
+CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.obj: CMakeFiles/application.dir/includes_CXX.rsp
+CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.obj: C:/dev/nvim/OpenGL/src/vendor/imgui/imgui_widgets.cpp
+CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.obj: CMakeFiles/application.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/C/dev/nvim/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.obj"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.obj -MF CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.obj.d -o CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.obj -c /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_widgets.cpp
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.i"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_widgets.cpp > CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.i
+
+CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.s"
+	/C/GNAT/2021/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /C/dev/nvim/OpenGL/src/vendor/imgui/imgui_widgets.cpp -o CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.s
+
 # Object files for target application
 application_OBJECTS = \
 "CMakeFiles/application.dir/src/Application.cpp.obj" \
@@ -214,7 +319,14 @@ application_OBJECTS = \
 "CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj" \
 "CMakeFiles/application.dir/src/Shader.cpp.obj" \
 "CMakeFiles/application.dir/src/Texture.cpp.obj" \
-"CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj"
+"CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj" \
+"CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.obj" \
+"CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.obj" \
+"CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.obj" \
+"CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.obj" \
+"CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.obj" \
+"CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.obj" \
+"CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.obj"
 
 # External object files for target application
 application_EXTERNAL_OBJECTS =
@@ -228,10 +340,17 @@ application.exe: CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj
 application.exe: CMakeFiles/application.dir/src/Shader.cpp.obj
 application.exe: CMakeFiles/application.dir/src/Texture.cpp.obj
 application.exe: CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj
+application.exe: CMakeFiles/application.dir/src/vendor/imgui/imgui.cpp.obj
+application.exe: CMakeFiles/application.dir/src/vendor/imgui/imgui_demo.cpp.obj
+application.exe: CMakeFiles/application.dir/src/vendor/imgui/imgui_draw.cpp.obj
+application.exe: CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_glfw.cpp.obj
+application.exe: CMakeFiles/application.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.obj
+application.exe: CMakeFiles/application.dir/src/vendor/imgui/imgui_tables.cpp.obj
+application.exe: CMakeFiles/application.dir/src/vendor/imgui/imgui_widgets.cpp.obj
 application.exe: CMakeFiles/application.dir/build.make
 application.exe: CMakeFiles/application.dir/linkLibs.rsp
 application.exe: CMakeFiles/application.dir/objects1
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/C/dev/nvim/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable application.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/C/dev/nvim/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable application.exe"
 	/C/Users/janob/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/bin/cmake.exe -E rm -f CMakeFiles/application.dir/objects.a
 	/C/GNAT/2021/bin/ar.exe qc CMakeFiles/application.dir/objects.a @CMakeFiles/application.dir/objects1
 	/C/GNAT/2021/bin/c++.exe -static -Wl,--whole-archive CMakeFiles/application.dir/objects.a -Wl,--no-whole-archive -o application.exe -Wl,--out-implib,libapplication.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/application.dir/linkLibs.rsp

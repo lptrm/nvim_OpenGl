@@ -9,7 +9,14 @@ SOURCE = src/Application.cpp \
 					src/VertexBuffer.cpp \
 					src/VertexBufferLayout.cpp \
 					src/Texture.cpp \
-					src/vendor/stb_image/stb_image.cpp
+					src/vendor/stb_image/stb_image.cpp \
+					src/vendor/imgui/imgui.cpp \
+					src/vendor/imgui/imgui_demo.cpp \
+					src/vendor/imgui/imgui_draw.cpp \
+					src/vendor/imgui/imgui_impl_glfw.cpp \
+					src/vendor/imgui/imgui_impl_opengl3.cpp \
+					src/vendor/imgui/imgui_tables.cpp \
+					src/vendor/imgui/imgui_widgets.cpp
 
 all: application.exe
 

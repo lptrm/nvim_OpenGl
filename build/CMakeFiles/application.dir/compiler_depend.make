@@ -363,10 +363,183 @@ CMakeFiles/application.dir/src/Application.cpp.obj: C:/dev/nvim/OpenGL/src/Appli
   C:/dev/nvim/OpenGL/src/Renderer.h \
   C:/dev/nvim/OpenGL/Depencies/GLEW/include/GL/glew.h \
   C:/dev/nvim/OpenGL/src/Shader.h \
+  C:/dev/nvim/OpenGL/src/vendor/glm/glm.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
+  C:/GNAT/2021/include/c++/10.3.1/cmath \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/math.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/specfun.h \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/gamma.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/special_function_util.h \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/bessel_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/beta_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/ell_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/exp_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/hypergeometric.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/legendre_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/modified_bessel_func.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_hermite.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_laguerre.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/riemann_zeta.tcc \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/GNAT/2021/include/c++/10.3.1/cassert \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/assert.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstddef \
+  C:/dev/nvim/OpenGL/src/vendor/glm/simd/platform.h \
+  C:/GNAT/2021/include/c++/10.3.1/climits \
+  C:/GNAT/2021/include/c++/10.3.1/cfloat \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/float.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/float.h \
+  C:/dev/nvim/OpenGL/src/vendor/glm/fwd.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/qualifier.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_vector_relational.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_int_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_uint_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/matrix.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_matrix.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/geometric.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_geometric.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/exponential.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_exponential.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vector_relational.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_vector_relational.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_vectorize.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/common.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_common.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_common.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/trigonometric.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_trigonometric.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/packing.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_packing.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/integer.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_integer.inl \
   C:/dev/nvim/OpenGL/src/VertexArray.h \
   C:/dev/nvim/OpenGL/src/VertexBuffer.h \
   C:/dev/nvim/OpenGL/src/Texture.h \
-  C:/dev/nvim/OpenGL/src/VertexBufferLayout.h
+  C:/dev/nvim/OpenGL/src/VertexBufferLayout.h \
+  C:/dev/nvim/OpenGL/src/vendor/glm/gtc/matrix_transform.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_projection.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/gtc/constants.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_constants.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_constants.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/gtc/constants.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_projection.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_clip_space.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_clip_space.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_transform.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_transform.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/gtc/matrix_transform.inl
 
 CMakeFiles/application.dir/src/IndexBuffer.cpp.obj: C:/dev/nvim/OpenGL/src/IndexBuffer.cpp \
   C:/dev/nvim/OpenGL/src/IndexBuffer.h \
@@ -387,19 +560,29 @@ CMakeFiles/application.dir/src/IndexBuffer.cpp.obj: C:/dev/nvim/OpenGL/src/Index
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/glu.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/gl.h \
   C:/dev/nvim/OpenGL/src/Shader.h \
-  C:/GNAT/2021/include/c++/10.3.1/string \
+  C:/dev/nvim/OpenGL/src/vendor/glm/glm.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
+  C:/GNAT/2021/include/c++/10.3.1/cmath \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++config.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/os_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/pstl/pstl_config.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/math.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/specfun.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/functexcept.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/exception_defines.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
-  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/ext/numeric_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/stl_pair.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/move.h \
@@ -412,16 +595,177 @@ CMakeFiles/application.dir/src/IndexBuffer.cpp.obj: C:/dev/nvim/OpenGL/src/Index
   C:/GNAT/2021/include/c++/10.3.1/bits/ptr_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/debug/debug.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/predefined_ops.h \
+  C:/GNAT/2021/include/c++/10.3.1/limits \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/gamma.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/special_function_util.h \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/bessel_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/beta_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/ell_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/exp_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/hypergeometric.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/legendre_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/modified_bessel_func.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_hermite.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_laguerre.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/riemann_zeta.tcc \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/GNAT/2021/include/c++/10.3.1/cassert \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/assert.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
+  C:/GNAT/2021/include/c++/10.3.1/cstddef \
+  C:/dev/nvim/OpenGL/src/vendor/glm/simd/platform.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdint \
+  C:/GNAT/2021/include/c++/10.3.1/climits \
+  C:/GNAT/2021/include/c++/10.3.1/cfloat \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/float.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/float.h \
+  C:/dev/nvim/OpenGL/src/vendor/glm/fwd.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/qualifier.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_vector_relational.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_int_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_uint_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/matrix.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_matrix.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/geometric.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_geometric.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/exponential.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_exponential.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vector_relational.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_vector_relational.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_vectorize.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/common.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_common.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_common.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/trigonometric.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_trigonometric.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/packing.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_packing.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/integer.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_integer.inl \
+  C:/GNAT/2021/include/c++/10.3.1/string \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/postypes.h \
   C:/GNAT/2021/include/c++/10.3.1/cwchar \
   C:/GNAT/2021/x86_64-w64-mingw32/include/wchar.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_stat64.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/swprintf.inl \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/GNAT/2021/include/c++/10.3.1/cstdint \
   C:/GNAT/2021/include/c++/10.3.1/bits/allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/ext/new_allocator.h \
@@ -455,15 +799,6 @@ CMakeFiles/application.dir/src/IndexBuffer.cpp.obj: C:/dev/nvim/OpenGL/src/Index
   C:/GNAT/2021/include/c++/10.3.1/ext/atomicity.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr-default.h \
-  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
-  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sys/timeb.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/atomic_word.h \
@@ -489,7 +824,6 @@ CMakeFiles/application.dir/src/IndexBuffer.cpp.obj: C:/dev/nvim/OpenGL/src/Index
   C:/GNAT/2021/include/c++/10.3.1/array \
   C:/GNAT/2021/include/c++/10.3.1/bits/uses_allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/invoke.h \
-  C:/GNAT/2021/include/c++/10.3.1/limits \
   C:/GNAT/2021/include/c++/10.3.1/bits/node_handle.h \
   C:/GNAT/2021/include/c++/10.3.1/optional \
   C:/GNAT/2021/include/c++/10.3.1/bits/enable_special_members.h \
@@ -517,19 +851,29 @@ CMakeFiles/application.dir/src/Renderer.cpp.obj: C:/dev/nvim/OpenGL/src/Renderer
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/glu.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/gl.h \
   C:/dev/nvim/OpenGL/src/Shader.h \
-  C:/GNAT/2021/include/c++/10.3.1/string \
+  C:/dev/nvim/OpenGL/src/vendor/glm/glm.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
+  C:/GNAT/2021/include/c++/10.3.1/cmath \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++config.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/os_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/pstl/pstl_config.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/math.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/specfun.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/functexcept.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/exception_defines.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
-  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/ext/numeric_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/stl_pair.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/move.h \
@@ -542,16 +886,177 @@ CMakeFiles/application.dir/src/Renderer.cpp.obj: C:/dev/nvim/OpenGL/src/Renderer
   C:/GNAT/2021/include/c++/10.3.1/bits/ptr_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/debug/debug.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/predefined_ops.h \
+  C:/GNAT/2021/include/c++/10.3.1/limits \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/gamma.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/special_function_util.h \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/bessel_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/beta_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/ell_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/exp_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/hypergeometric.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/legendre_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/modified_bessel_func.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_hermite.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_laguerre.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/riemann_zeta.tcc \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/GNAT/2021/include/c++/10.3.1/cassert \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/assert.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
+  C:/GNAT/2021/include/c++/10.3.1/cstddef \
+  C:/dev/nvim/OpenGL/src/vendor/glm/simd/platform.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdint \
+  C:/GNAT/2021/include/c++/10.3.1/climits \
+  C:/GNAT/2021/include/c++/10.3.1/cfloat \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/float.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/float.h \
+  C:/dev/nvim/OpenGL/src/vendor/glm/fwd.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/qualifier.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_vector_relational.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_int_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_uint_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/matrix.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_matrix.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/geometric.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_geometric.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/exponential.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_exponential.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vector_relational.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_vector_relational.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_vectorize.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/common.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_common.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_common.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/trigonometric.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_trigonometric.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/packing.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_packing.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/integer.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_integer.inl \
+  C:/GNAT/2021/include/c++/10.3.1/string \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/postypes.h \
   C:/GNAT/2021/include/c++/10.3.1/cwchar \
   C:/GNAT/2021/x86_64-w64-mingw32/include/wchar.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_stat64.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/swprintf.inl \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/GNAT/2021/include/c++/10.3.1/cstdint \
   C:/GNAT/2021/include/c++/10.3.1/bits/allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/ext/new_allocator.h \
@@ -585,15 +1090,6 @@ CMakeFiles/application.dir/src/Renderer.cpp.obj: C:/dev/nvim/OpenGL/src/Renderer
   C:/GNAT/2021/include/c++/10.3.1/ext/atomicity.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr-default.h \
-  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
-  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sys/timeb.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/atomic_word.h \
@@ -619,7 +1115,6 @@ CMakeFiles/application.dir/src/Renderer.cpp.obj: C:/dev/nvim/OpenGL/src/Renderer
   C:/GNAT/2021/include/c++/10.3.1/array \
   C:/GNAT/2021/include/c++/10.3.1/bits/uses_allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/invoke.h \
-  C:/GNAT/2021/include/c++/10.3.1/limits \
   C:/GNAT/2021/include/c++/10.3.1/bits/node_handle.h \
   C:/GNAT/2021/include/c++/10.3.1/optional \
   C:/GNAT/2021/include/c++/10.3.1/bits/enable_special_members.h \
@@ -653,19 +1148,36 @@ CMakeFiles/application.dir/src/Renderer.cpp.obj: C:/dev/nvim/OpenGL/src/Renderer
 
 CMakeFiles/application.dir/src/Shader.cpp.obj: C:/dev/nvim/OpenGL/src/Shader.cpp \
   C:/dev/nvim/OpenGL/src/Shader.h \
-  C:/GNAT/2021/include/c++/10.3.1/string \
+  C:/dev/nvim/OpenGL/src/vendor/glm/glm.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
+  C:/GNAT/2021/include/c++/10.3.1/cmath \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++config.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/os_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/pstl/pstl_config.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/math.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/vadefs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/specfun.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/functexcept.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/exception_defines.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
-  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/ext/numeric_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/stl_pair.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/move.h \
@@ -678,27 +1190,181 @@ CMakeFiles/application.dir/src/Shader.cpp.obj: C:/dev/nvim/OpenGL/src/Shader.cpp
   C:/GNAT/2021/include/c++/10.3.1/bits/ptr_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/debug/debug.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/predefined_ops.h \
+  C:/GNAT/2021/include/c++/10.3.1/limits \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/gamma.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/special_function_util.h \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/bessel_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/beta_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/ell_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/exp_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/hypergeometric.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/legendre_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/modified_bessel_func.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_hermite.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_laguerre.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/riemann_zeta.tcc \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/GNAT/2021/include/c++/10.3.1/cassert \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/assert.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
+  C:/GNAT/2021/include/c++/10.3.1/cstddef \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stddef.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stddef.h \
+  C:/dev/nvim/OpenGL/src/vendor/glm/simd/platform.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdint \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stdint.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdint.h \
+  C:/GNAT/2021/include/c++/10.3.1/climits \
+  C:/GNAT/2021/include/c++/10.3.1/cfloat \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/float.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/float.h \
+  C:/dev/nvim/OpenGL/src/vendor/glm/fwd.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/qualifier.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_vector_relational.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_int_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_uint_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/matrix.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_matrix.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/geometric.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_geometric.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/exponential.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_exponential.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vector_relational.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_vector_relational.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_vectorize.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/common.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_common.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_common.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/trigonometric.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_trigonometric.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/packing.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_packing.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/integer.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_integer.inl \
+  C:/GNAT/2021/include/c++/10.3.1/string \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/postypes.h \
   C:/GNAT/2021/include/c++/10.3.1/cwchar \
   C:/GNAT/2021/x86_64-w64-mingw32/include/wchar.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/vadefs.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_stat64.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/swprintf.inl \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/GNAT/2021/include/c++/10.3.1/cstdint \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stdint.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/stdint.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stddef.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/stddef.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/ext/new_allocator.h \
@@ -732,15 +1398,6 @@ CMakeFiles/application.dir/src/Shader.cpp.obj: C:/dev/nvim/OpenGL/src/Shader.cpp
   C:/GNAT/2021/include/c++/10.3.1/ext/atomicity.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr-default.h \
-  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
-  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sys/timeb.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/atomic_word.h \
@@ -766,7 +1423,6 @@ CMakeFiles/application.dir/src/Shader.cpp.obj: C:/dev/nvim/OpenGL/src/Shader.cpp
   C:/GNAT/2021/include/c++/10.3.1/array \
   C:/GNAT/2021/include/c++/10.3.1/bits/uses_allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/invoke.h \
-  C:/GNAT/2021/include/c++/10.3.1/limits \
   C:/GNAT/2021/include/c++/10.3.1/bits/node_handle.h \
   C:/GNAT/2021/include/c++/10.3.1/optional \
   C:/GNAT/2021/include/c++/10.3.1/bits/enable_special_members.h \
@@ -811,9 +1467,8 @@ CMakeFiles/application.dir/src/Shader.cpp.obj: C:/dev/nvim/OpenGL/src/Shader.cpp
   C:/GNAT/2021/include/c++/10.3.1/sstream \
   C:/GNAT/2021/include/c++/10.3.1/bits/sstream.tcc
 
-CMakeFiles/application.dir/src/VertexArray.cpp.obj: C:/dev/nvim/OpenGL/src/VertexArray.cpp \
-  C:/dev/nvim/OpenGL/src/VertexArray.h \
-  C:/dev/nvim/OpenGL/src/VertexBuffer.h \
+CMakeFiles/application.dir/src/Texture.cpp.obj: C:/dev/nvim/OpenGL/src/Texture.cpp \
+  C:/dev/nvim/OpenGL/src/Texture.h \
   C:/dev/nvim/OpenGL/src/Renderer.h \
   C:/dev/nvim/OpenGL/src/IndexBuffer.h \
   C:/dev/nvim/OpenGL/Depencies/GLEW/include/GL/glew.h \
@@ -832,19 +1487,29 @@ CMakeFiles/application.dir/src/VertexArray.cpp.obj: C:/dev/nvim/OpenGL/src/Verte
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/glu.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/gl.h \
   C:/dev/nvim/OpenGL/src/Shader.h \
-  C:/GNAT/2021/include/c++/10.3.1/string \
+  C:/dev/nvim/OpenGL/src/vendor/glm/glm.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
+  C:/GNAT/2021/include/c++/10.3.1/cmath \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++config.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/os_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/pstl/pstl_config.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/math.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/specfun.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/functexcept.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/exception_defines.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
-  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/ext/numeric_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/stl_pair.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/move.h \
@@ -857,16 +1522,177 @@ CMakeFiles/application.dir/src/VertexArray.cpp.obj: C:/dev/nvim/OpenGL/src/Verte
   C:/GNAT/2021/include/c++/10.3.1/bits/ptr_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/debug/debug.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/predefined_ops.h \
+  C:/GNAT/2021/include/c++/10.3.1/limits \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/gamma.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/special_function_util.h \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/bessel_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/beta_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/ell_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/exp_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/hypergeometric.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/legendre_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/modified_bessel_func.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_hermite.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_laguerre.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/riemann_zeta.tcc \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/GNAT/2021/include/c++/10.3.1/cassert \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/assert.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
+  C:/GNAT/2021/include/c++/10.3.1/cstddef \
+  C:/dev/nvim/OpenGL/src/vendor/glm/simd/platform.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdint \
+  C:/GNAT/2021/include/c++/10.3.1/climits \
+  C:/GNAT/2021/include/c++/10.3.1/cfloat \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/float.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/float.h \
+  C:/dev/nvim/OpenGL/src/vendor/glm/fwd.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/qualifier.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_vector_relational.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_int_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_uint_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/matrix.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_matrix.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/geometric.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_geometric.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/exponential.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_exponential.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vector_relational.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_vector_relational.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_vectorize.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/common.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_common.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_common.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/trigonometric.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_trigonometric.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/packing.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_packing.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/integer.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_integer.inl \
+  C:/GNAT/2021/include/c++/10.3.1/string \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/postypes.h \
   C:/GNAT/2021/include/c++/10.3.1/cwchar \
   C:/GNAT/2021/x86_64-w64-mingw32/include/wchar.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_stat64.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/swprintf.inl \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/GNAT/2021/include/c++/10.3.1/cstdint \
   C:/GNAT/2021/include/c++/10.3.1/bits/allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/ext/new_allocator.h \
@@ -900,15 +1726,6 @@ CMakeFiles/application.dir/src/VertexArray.cpp.obj: C:/dev/nvim/OpenGL/src/Verte
   C:/GNAT/2021/include/c++/10.3.1/ext/atomicity.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr-default.h \
-  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
-  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sys/timeb.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/atomic_word.h \
@@ -934,7 +1751,300 @@ CMakeFiles/application.dir/src/VertexArray.cpp.obj: C:/dev/nvim/OpenGL/src/Verte
   C:/GNAT/2021/include/c++/10.3.1/array \
   C:/GNAT/2021/include/c++/10.3.1/bits/uses_allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/invoke.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/node_handle.h \
+  C:/GNAT/2021/include/c++/10.3.1/optional \
+  C:/GNAT/2021/include/c++/10.3.1/bits/enable_special_members.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/unordered_map.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/erase_if.h \
+  C:/dev/nvim/OpenGL/src/VertexArray.h \
+  C:/dev/nvim/OpenGL/src/VertexBuffer.h \
+  C:/dev/nvim/OpenGL/src/vendor/stb_image/stb_image.h
+
+CMakeFiles/application.dir/src/VertexArray.cpp.obj: C:/dev/nvim/OpenGL/src/VertexArray.cpp \
+  C:/dev/nvim/OpenGL/src/VertexArray.h \
+  C:/dev/nvim/OpenGL/src/VertexBuffer.h \
+  C:/dev/nvim/OpenGL/src/Renderer.h \
+  C:/dev/nvim/OpenGL/src/IndexBuffer.h \
+  C:/dev/nvim/OpenGL/Depencies/GLEW/include/GL/glew.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/inttypes.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/vadefs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stdint.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdint.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stddef.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stddef.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/GL/glu.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/GL/gl.h \
+  C:/dev/nvim/OpenGL/src/Shader.h \
+  C:/dev/nvim/OpenGL/src/vendor/glm/glm.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
+  C:/GNAT/2021/include/c++/10.3.1/cmath \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++config.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/GNAT/2021/include/c++/10.3.1/pstl/pstl_config.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/math.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/specfun.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/functexcept.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/exception_defines.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/numeric_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_pair.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/move.h \
+  C:/GNAT/2021/include/c++/10.3.1/type_traits \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator_base_types.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator_base_funcs.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/concept_check.h \
+  C:/GNAT/2021/include/c++/10.3.1/debug/assertions.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/ptr_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/debug/debug.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/predefined_ops.h \
   C:/GNAT/2021/include/c++/10.3.1/limits \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/gamma.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/special_function_util.h \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/bessel_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/beta_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/ell_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/exp_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/hypergeometric.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/legendre_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/modified_bessel_func.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_hermite.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_laguerre.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/riemann_zeta.tcc \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/GNAT/2021/include/c++/10.3.1/cassert \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/assert.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
+  C:/GNAT/2021/include/c++/10.3.1/cstddef \
+  C:/dev/nvim/OpenGL/src/vendor/glm/simd/platform.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdint \
+  C:/GNAT/2021/include/c++/10.3.1/climits \
+  C:/GNAT/2021/include/c++/10.3.1/cfloat \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/float.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/float.h \
+  C:/dev/nvim/OpenGL/src/vendor/glm/fwd.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/qualifier.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_vector_relational.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_int_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_uint_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/matrix.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_matrix.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/geometric.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_geometric.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/exponential.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_exponential.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vector_relational.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_vector_relational.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_vectorize.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/common.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_common.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_common.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/trigonometric.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_trigonometric.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/packing.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_packing.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/integer.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_integer.inl \
+  C:/GNAT/2021/include/c++/10.3.1/string \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/postypes.h \
+  C:/GNAT/2021/include/c++/10.3.1/cwchar \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/wchar.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/new_allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/new \
+  C:/GNAT/2021/include/c++/10.3.1/exception \
+  C:/GNAT/2021/include/c++/10.3.1/bits/exception.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/exception_ptr.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cxxabi_init_exception.h \
+  C:/GNAT/2021/include/c++/10.3.1/typeinfo \
+  C:/GNAT/2021/include/c++/10.3.1/bits/hash_bytes.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/nested_exception.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/localefwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/GNAT/2021/include/c++/10.3.1/clocale \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/locale.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdio.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/iosfwd \
+  C:/GNAT/2021/include/c++/10.3.1/cctype \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/ctype.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/ostream_insert.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cxxabi_forced.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_function.h \
+  C:/GNAT/2021/include/c++/10.3.1/backward/binders.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/range_access.h \
+  C:/GNAT/2021/include/c++/10.3.1/initializer_list \
+  C:/GNAT/2021/include/c++/10.3.1/bits/iterator_concepts.h \
+  C:/GNAT/2021/include/c++/10.3.1/concepts \
+  C:/GNAT/2021/include/c++/10.3.1/bits/range_cmp.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/basic_string.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/atomicity.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/alloc_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/alloc_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_construct.h \
+  C:/GNAT/2021/include/c++/10.3.1/string_view \
+  C:/GNAT/2021/include/c++/10.3.1/bits/functional_hash.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/string_view.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/ext/string_conversions.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdio \
+  C:/GNAT/2021/include/c++/10.3.1/cerrno \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/errno.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/charconv.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/basic_string.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/unordered_map \
+  C:/GNAT/2021/include/c++/10.3.1/ext/aligned_buffer.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/hashtable.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/hashtable_policy.h \
+  C:/GNAT/2021/include/c++/10.3.1/tuple \
+  C:/GNAT/2021/include/c++/10.3.1/utility \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_relops.h \
+  C:/GNAT/2021/include/c++/10.3.1/array \
+  C:/GNAT/2021/include/c++/10.3.1/bits/uses_allocator.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/invoke.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/node_handle.h \
   C:/GNAT/2021/include/c++/10.3.1/optional \
   C:/GNAT/2021/include/c++/10.3.1/bits/enable_special_members.h \
@@ -967,19 +2077,29 @@ CMakeFiles/application.dir/src/VertexBuffer.cpp.obj: C:/dev/nvim/OpenGL/src/Vert
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/glu.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/gl.h \
   C:/dev/nvim/OpenGL/src/Shader.h \
-  C:/GNAT/2021/include/c++/10.3.1/string \
+  C:/dev/nvim/OpenGL/src/vendor/glm/glm.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
+  C:/GNAT/2021/include/c++/10.3.1/cmath \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++config.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/os_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/pstl/pstl_config.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/math.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/specfun.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/functexcept.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/exception_defines.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
-  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/ext/numeric_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/stl_pair.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/move.h \
@@ -992,16 +2112,177 @@ CMakeFiles/application.dir/src/VertexBuffer.cpp.obj: C:/dev/nvim/OpenGL/src/Vert
   C:/GNAT/2021/include/c++/10.3.1/bits/ptr_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/debug/debug.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/predefined_ops.h \
+  C:/GNAT/2021/include/c++/10.3.1/limits \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/gamma.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/special_function_util.h \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/bessel_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/beta_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/ell_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/exp_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/hypergeometric.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/legendre_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/modified_bessel_func.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_hermite.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_laguerre.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/riemann_zeta.tcc \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/GNAT/2021/include/c++/10.3.1/cassert \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/assert.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
+  C:/GNAT/2021/include/c++/10.3.1/cstddef \
+  C:/dev/nvim/OpenGL/src/vendor/glm/simd/platform.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdint \
+  C:/GNAT/2021/include/c++/10.3.1/climits \
+  C:/GNAT/2021/include/c++/10.3.1/cfloat \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/float.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/float.h \
+  C:/dev/nvim/OpenGL/src/vendor/glm/fwd.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/qualifier.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_vector_relational.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_int_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_uint_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/matrix.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_matrix.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/geometric.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_geometric.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/exponential.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_exponential.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vector_relational.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_vector_relational.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_vectorize.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/common.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_common.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_common.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/trigonometric.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_trigonometric.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/packing.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_packing.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/integer.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_integer.inl \
+  C:/GNAT/2021/include/c++/10.3.1/string \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/postypes.h \
   C:/GNAT/2021/include/c++/10.3.1/cwchar \
   C:/GNAT/2021/x86_64-w64-mingw32/include/wchar.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_stat64.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/swprintf.inl \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/GNAT/2021/include/c++/10.3.1/cstdint \
   C:/GNAT/2021/include/c++/10.3.1/bits/allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/ext/new_allocator.h \
@@ -1035,15 +2316,6 @@ CMakeFiles/application.dir/src/VertexBuffer.cpp.obj: C:/dev/nvim/OpenGL/src/Vert
   C:/GNAT/2021/include/c++/10.3.1/ext/atomicity.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr-default.h \
-  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
-  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sys/timeb.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/atomic_word.h \
@@ -1069,7 +2341,6 @@ CMakeFiles/application.dir/src/VertexBuffer.cpp.obj: C:/dev/nvim/OpenGL/src/Vert
   C:/GNAT/2021/include/c++/10.3.1/array \
   C:/GNAT/2021/include/c++/10.3.1/bits/uses_allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/invoke.h \
-  C:/GNAT/2021/include/c++/10.3.1/limits \
   C:/GNAT/2021/include/c++/10.3.1/bits/node_handle.h \
   C:/GNAT/2021/include/c++/10.3.1/optional \
   C:/GNAT/2021/include/c++/10.3.1/bits/enable_special_members.h \
@@ -1097,19 +2368,29 @@ CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj: C:/dev/nvim/OpenGL/sr
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/glu.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/GL/gl.h \
   C:/dev/nvim/OpenGL/src/Shader.h \
-  C:/GNAT/2021/include/c++/10.3.1/string \
+  C:/dev/nvim/OpenGL/src/vendor/glm/glm.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
+  C:/GNAT/2021/include/c++/10.3.1/cmath \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++config.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/os_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/GNAT/2021/include/c++/10.3.1/pstl/pstl_config.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/math.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/specfun.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/functexcept.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/exception_defines.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
-  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/ext/numeric_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/stl_pair.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/move.h \
@@ -1122,16 +2403,177 @@ CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj: C:/dev/nvim/OpenGL/sr
   C:/GNAT/2021/include/c++/10.3.1/bits/ptr_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/debug/debug.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/predefined_ops.h \
+  C:/GNAT/2021/include/c++/10.3.1/limits \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/gamma.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/special_function_util.h \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/bessel_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/beta_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/ell_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/exp_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/hypergeometric.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/legendre_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/modified_bessel_func.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_hermite.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_laguerre.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/riemann_zeta.tcc \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/GNAT/2021/include/c++/10.3.1/cassert \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/assert.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
+  C:/GNAT/2021/include/c++/10.3.1/cstddef \
+  C:/dev/nvim/OpenGL/src/vendor/glm/simd/platform.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdint \
+  C:/GNAT/2021/include/c++/10.3.1/climits \
+  C:/GNAT/2021/include/c++/10.3.1/cfloat \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/float.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/float.h \
+  C:/dev/nvim/OpenGL/src/vendor/glm/fwd.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/qualifier.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_vector_relational.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_int_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_uint_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vec4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4_sized.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/matrix.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/mat4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_matrix.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/geometric.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_geometric.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/exponential.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_exponential.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/vector_relational.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_vector_relational.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_vectorize.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/common.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_common.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_common.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2_precision.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/trigonometric.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_trigonometric.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/packing.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_packing.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.inl \
+  C:/dev/nvim/OpenGL/src/vendor/glm/integer.hpp \
+  C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_integer.inl \
+  C:/GNAT/2021/include/c++/10.3.1/string \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/postypes.h \
   C:/GNAT/2021/include/c++/10.3.1/cwchar \
   C:/GNAT/2021/x86_64-w64-mingw32/include/wchar.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_stat64.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/swprintf.inl \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  C:/GNAT/2021/include/c++/10.3.1/cstdint \
   C:/GNAT/2021/include/c++/10.3.1/bits/allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/ext/new_allocator.h \
@@ -1165,15 +2607,6 @@ CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj: C:/dev/nvim/OpenGL/sr
   C:/GNAT/2021/include/c++/10.3.1/ext/atomicity.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr-default.h \
-  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
-  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
-  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
-  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sys/timeb.h \
   C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
   C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/atomic_word.h \
@@ -1199,7 +2632,6 @@ CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj: C:/dev/nvim/OpenGL/sr
   C:/GNAT/2021/include/c++/10.3.1/array \
   C:/GNAT/2021/include/c++/10.3.1/bits/uses_allocator.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/invoke.h \
-  C:/GNAT/2021/include/c++/10.3.1/limits \
   C:/GNAT/2021/include/c++/10.3.1/bits/node_handle.h \
   C:/GNAT/2021/include/c++/10.3.1/optional \
   C:/GNAT/2021/include/c++/10.3.1/bits/enable_special_members.h \
@@ -1213,24 +2645,103 @@ CMakeFiles/application.dir/src/VertexBufferLayout.cpp.obj: C:/dev/nvim/OpenGL/sr
   C:/GNAT/2021/include/c++/10.3.1/bits/stl_bvector.h \
   C:/GNAT/2021/include/c++/10.3.1/bits/vector.tcc
 
+CMakeFiles/application.dir/src/vendor/stb_image/stb_image.cpp.obj: C:/dev/nvim/OpenGL/src/vendor/stb_image/stb_image.cpp \
+  C:/dev/nvim/OpenGL/src/vendor/stb_image/stb_image.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdio.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/vadefs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/stdlib.h \
+  C:/GNAT/2021/include/c++/10.3.1/cstdlib \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++config.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/GNAT/2021/include/c++/10.3.1/pstl/pstl_config.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stdarg.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdarg.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stddef.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stddef.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/string.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/GNAT/2021/include/c++/10.3.1/math.h \
+  C:/GNAT/2021/include/c++/10.3.1/cmath \
+  C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/math.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/specfun.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/functexcept.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/exception_defines.h \
+  C:/GNAT/2021/include/c++/10.3.1/ext/numeric_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_pair.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/move.h \
+  C:/GNAT/2021/include/c++/10.3.1/type_traits \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator_base_types.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator_base_funcs.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/concept_check.h \
+  C:/GNAT/2021/include/c++/10.3.1/debug/assertions.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/ptr_traits.h \
+  C:/GNAT/2021/include/c++/10.3.1/debug/debug.h \
+  C:/GNAT/2021/include/c++/10.3.1/bits/predefined_ops.h \
+  C:/GNAT/2021/include/c++/10.3.1/limits \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/gamma.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/special_function_util.h \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/bessel_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/beta_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/ell_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/exp_integral.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/hypergeometric.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/legendre_function.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/modified_bessel_func.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_hermite.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/poly_laguerre.tcc \
+  C:/GNAT/2021/include/c++/10.3.1/tr1/riemann_zeta.tcc \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/assert.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stdint.h \
+  C:/GNAT/2021/x86_64-w64-mingw32/include/stdint.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/emmintrin.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/xmmintrin.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/mmintrin.h \
+  C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/mm_malloc.h
+
 
 C:/GNAT/2021/include/c++/10.3.1/bits/stl_algobase.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_constants.inl:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_secapi.h:
 
 C:/dev/nvim/OpenGL/src/Application.cpp:
 
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2_precision.hpp:
+
 C:/dev/nvim/OpenGL/Depencies/GLEW/include/GL/glew.h:
 
-C:/dev/nvim/OpenGL/src/VertexBuffer.h:
-
 C:/GNAT/2021/include/c++/10.3.1/bits/exception.h:
+
+C:/GNAT/2021/x86_64-w64-mingw32/include/inttypes.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/clflushoptintrin.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/locale.h:
-
-C:/GNAT/2021/x86_64-w64-mingw32/include/inttypes.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/exception_defines.h:
 
@@ -1238,59 +2749,73 @@ C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_mac.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/namespaceapi.h:
 
-C:/GNAT/2021/include/c++/10.3.1/bits/std_function.h:
+C:/GNAT/2021/include/c++/10.3.1/debug/assertions.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/crtdefs.h:
 
-C:/GNAT/2021/include/c++/10.3.1/debug/assertions.h:
-
-C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw.h:
-
-C:/GNAT/2021/include/c++/10.3.1/cerrno:
+C:/GNAT/2021/include/c++/10.3.1/bits/std_function.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/stringfwd.h:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/pkuintrin.h:
+C:/GNAT/2021/include/c++/10.3.1/cerrno:
+
+C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt.h:
+
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/pkuintrin.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4_sized.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4.hpp:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/vadefs.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/exception_ptr.h:
 
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3_precision.hpp:
+
 C:/GNAT/2021/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/wincon.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/errhandlingapi.h:
+C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++config.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stdint.h:
 
-C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++config.h:
+C:/GNAT/2021/x86_64-w64-mingw32/include/errhandlingapi.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/fs_fwd.h:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512vpopcntdqintrin.h:
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2.hpp:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/move.h:
+
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512vpopcntdqintrin.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/stdint.h:
 
 C:/GNAT/2021/include/c++/10.3.1/new:
 
-C:/GNAT/2021/include/c++/10.3.1/bits/ios_base.h:
-
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stddef.h:
+
+C:/GNAT/2021/include/c++/10.3.1/bits/ios_base.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/stddef.h:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/sgxintrin.h:
-
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/shaintrin.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/trigonometric.hpp:
 
 C:/GNAT/2021/include/c++/10.3.1/system_error:
 
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/sgxintrin.h:
+
 C:/GNAT/2021/x86_64-w64-mingw32/include/GL/glu.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4.hpp:
 
 C:/GNAT/2021/include/c++/10.3.1/ext/numeric_traits.h:
 
@@ -1302,33 +2827,35 @@ C:/dev/nvim/OpenGL/Depencies/GLFW/include/GLFW/glfw3.h:
 
 C:/GNAT/2021/include/c++/10.3.1/filesystem:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/pshpack4.h:
+C:/GNAT/2021/include/c++/10.3.1/bits/nested_exception.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/guiddef.h:
+C:/GNAT/2021/x86_64-w64-mingw32/include/pshpack4.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/stl_algo.h:
 
-C:/GNAT/2021/include/c++/10.3.1/bits/nested_exception.h:
+C:/GNAT/2021/x86_64-w64-mingw32/include/guiddef.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/xmmintrin.h:
-
 C:/GNAT/2021/include/c++/10.3.1/pstl/pstl_config.h:
+
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/xmmintrin.h:
 
 C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/os_defines.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/basetsd.h:
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.hpp:
 
 C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/cpu_defines.h:
+
+C:/GNAT/2021/x86_64-w64-mingw32/include/basetsd.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/char_traits.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/ktmtypes.h:
-
 C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/error_constants.h:
+
+C:/GNAT/2021/x86_64-w64-mingw32/include/ktmtypes.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/errno.h:
 
@@ -1336,41 +2863,51 @@ C:/GNAT/2021/include/c++/10.3.1/iosfwd:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/memoryfwd.h:
 
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.inl:
+
 C:/GNAT/2021/include/c++/10.3.1/bits/concept_check.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x3.hpp:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/clwbintrin.h:
 
 C:/GNAT/2021/include/c++/10.3.1/stdexcept:
 
-C:/GNAT/2021/include/c++/10.3.1/bits/streambuf.tcc:
-
 C:/GNAT/2021/include/c++/10.3.1/cwchar:
 
+C:/GNAT/2021/include/c++/10.3.1/bits/streambuf.tcc:
+
 C:/GNAT/2021/include/c++/10.3.1/bits/postypes.h:
+
+C:/GNAT/2021/include/c++/10.3.1/tr1/ell_integral.tcc:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4_precision.hpp:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/wchar.h:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h:
-
 C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_stat64.h:
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/syslimits.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
+
+C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_stat64.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/swprintf.inl:
 
 C:/GNAT/2021/include/c++/10.3.1/exception:
 
-C:/GNAT/2021/include/c++/10.3.1/array:
-
 C:/GNAT/2021/include/c++/10.3.1/bits/stl_pair.h:
+
+C:/GNAT/2021/include/c++/10.3.1/array:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/cxxabi_init_exception.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/prfchwintrin.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2.hpp:
 
 C:/GNAT/2021/include/c++/10.3.1/typeinfo:
 
@@ -1378,15 +2915,19 @@ C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator_base_funcs.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/hash_bytes.h:
 
-C:/GNAT/2021/include/c++/10.3.1/cstdio:
-
 C:/GNAT/2021/include/c++/10.3.1/type_traits:
 
-C:/dev/nvim/OpenGL/src/IndexBuffer.cpp:
+C:/GNAT/2021/include/c++/10.3.1/cstdio:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x2_precision.hpp:
 
 C:/GNAT/2021/include/c++/10.3.1/string:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/functexcept.h:
+
+C:/GNAT/2021/include/c++/10.3.1/tr1/beta_function.tcc:
+
+C:/GNAT/2021/include/c++/10.3.1/tr1/modified_bessel_func.tcc:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/cpp_type_traits.h:
 
@@ -1394,19 +2935,25 @@ C:/GNAT/2021/include/c++/10.3.1/ext/type_traits.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/stl_iterator_base_types.h:
 
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3.hpp:
+
 C:/GNAT/2021/include/c++/10.3.1/bits/ptr_traits.h:
 
 C:/GNAT/2021/include/c++/10.3.1/debug/debug.h:
 
-C:/GNAT/2021/include/c++/10.3.1/bits/predefined_ops.h:
+C:/GNAT/2021/include/c++/10.3.1/math.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/_timeval.h:
+C:/GNAT/2021/include/c++/10.3.1/bits/predefined_ops.h:
 
 C:/GNAT/2021/include/c++/10.3.1/cstdint:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512vbmiintrin.h:
+C:/GNAT/2021/x86_64-w64-mingw32/include/_timeval.h:
 
 C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++allocator.h:
+
+C:/GNAT/2021/include/c++/10.3.1/bits/specfun.h:
+
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512vbmiintrin.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/bemapiset.h:
 
@@ -1414,41 +2961,45 @@ C:/GNAT/2021/include/c++/10.3.1/ext/new_allocator.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/localefwd.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/wctype.h:
-
 C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++locale.h:
 
-C:/GNAT/2021/include/c++/10.3.1/ratio:
+C:/GNAT/2021/x86_64-w64-mingw32/include/wctype.h:
 
 C:/GNAT/2021/include/c++/10.3.1/clocale:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/lwpintrin.h:
+C:/GNAT/2021/include/c++/10.3.1/ratio:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/stdio.h:
 
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/lwpintrin.h:
+
 C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h:
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3_sized.hpp:
 
 C:/GNAT/2021/include/c++/10.3.1/cctype:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/wow64apiset.h:
+C:/GNAT/2021/x86_64-w64-mingw32/include/stdlib.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/ctype.h:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512vpopcntdqvlintrin.h:
-
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512vlbwintrin.h:
+C:/GNAT/2021/x86_64-w64-mingw32/include/wow64apiset.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/ostream_insert.h:
 
-C:/GNAT/2021/include/c++/10.3.1/bits/cxxabi_forced.h:
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512vlbwintrin.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/winnls.h:
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512vpopcntdqvlintrin.h:
+
+C:/GNAT/2021/include/c++/10.3.1/bits/cxxabi_forced.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/stl_function.h:
 
+C:/GNAT/2021/x86_64-w64-mingw32/include/winnls.h:
+
 C:/GNAT/2021/include/c++/10.3.1/backward/binders.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x3.inl:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/stdarg.h:
 
@@ -1456,35 +3007,45 @@ C:/GNAT/2021/include/c++/10.3.1/bits/range_access.h:
 
 C:/GNAT/2021/include/c++/10.3.1/initializer_list:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/pshpack1.h:
+C:/GNAT/2021/include/c++/10.3.1/bits/iterator_concepts.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/ia32intrin.h:
 
-C:/GNAT/2021/include/c++/10.3.1/bits/iterator_concepts.h:
+C:/GNAT/2021/x86_64-w64-mingw32/include/pshpack1.h:
 
 C:/GNAT/2021/include/c++/10.3.1/concepts:
 
-C:/dev/nvim/OpenGL/src/Renderer.h:
-
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/emmintrin.h:
+
+C:/dev/nvim/OpenGL/src/Renderer.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/range_cmp.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/xsaveintrin.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/time.h:
-
 C:/GNAT/2021/include/c++/10.3.1/bits/basic_string.h:
+
+C:/GNAT/2021/x86_64-w64-mingw32/include/time.h:
 
 C:/GNAT/2021/include/c++/10.3.1/ext/atomicity.h:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512cdintrin.h:
-
-C:/GNAT/2021/include/c++/10.3.1/bits/locale_classes.h:
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double2.hpp:
 
 C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr.h:
 
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512cdintrin.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/mat4x4.hpp:
+
+C:/GNAT/2021/include/c++/10.3.1/bits/locale_classes.h:
+
 C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/gthr-default.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/vec4.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/integer.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/gtc/constants.hpp:
 
 C:/GNAT/2021/include/c++/10.3.1/stdlib.h:
 
@@ -1492,27 +3053,33 @@ C:/GNAT/2021/include/c++/10.3.1/cstdlib:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed/limits.h:
 
+C:/dev/nvim/OpenGL/src/vendor/glm/exponential.hpp:
+
 C:/GNAT/2021/x86_64-w64-mingw32/include/limits.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
-C:/dev/nvim/OpenGL/src/VertexBufferLayout.h:
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3.hpp:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/malloc.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/std_abs.h:
 
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.inl:
+
 C:/GNAT/2021/x86_64-w64-mingw32/include/sys/timeb.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/mat3x3.hpp:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/fxsrintrin.h:
 
 C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/atomic_word.h:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx2intrin.h:
-
 C:/GNAT/2021/include/c++/10.3.1/ext/alloc_traits.h:
+
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx2intrin.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/alloc_traits.h:
 
@@ -1520,9 +3087,11 @@ C:/GNAT/2021/include/c++/10.3.1/bits/stl_construct.h:
 
 C:/GNAT/2021/include/c++/10.3.1/string_view:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/threadpoollegacyapiset.h:
-
 C:/GNAT/2021/include/c++/10.3.1/bits/functional_hash.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3_precision.hpp:
+
+C:/GNAT/2021/x86_64-w64-mingw32/include/threadpoollegacyapiset.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/pconfigintrin.h:
 
@@ -1532,7 +3101,11 @@ C:/GNAT/2021/x86_64-w64-mingw32/include/memoryapi.h:
 
 C:/GNAT/2021/include/c++/10.3.1/ext/string_conversions.h:
 
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4_sized.hpp:
+
 C:/GNAT/2021/include/c++/10.3.1/bits/charconv.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_common.hpp:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/basic_string.tcc:
 
@@ -1548,9 +3121,13 @@ C:/GNAT/2021/include/c++/10.3.1/ctime:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/stl_relops.h:
 
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/float.h:
+
 C:/GNAT/2021/x86_64-w64-mingw32/include/pthread_time.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/parse_numbers.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_vector_relational.inl:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/fs_path.h:
 
@@ -1560,41 +3137,55 @@ C:/GNAT/2021/include/c++/10.3.1/locale:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/locale_classes.tcc:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/fltwinerror.h:
-
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/bmiintrin.h:
-
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512vnniintrin.h:
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4_precision.hpp:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx5124fmapsintrin.h:
 
+C:/GNAT/2021/x86_64-w64-mingw32/include/fltwinerror.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/mat4x2.hpp:
+
 C:/GNAT/2021/include/c++/10.3.1/bits/locale_facets.h:
+
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512vnniintrin.h:
+
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/bmiintrin.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.inl:
+
+C:/GNAT/2021/include/c++/10.3.1/cwctype:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/timezoneapi.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512vlintrin.h:
 
-C:/GNAT/2021/include/c++/10.3.1/cwctype:
-
 C:/GNAT/2021/x86_64-w64-mingw32/include/winerror.h:
 
 C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/ctype_base.h:
+
+C:/GNAT/2021/include/c++/10.3.1/cstddef:
 
 C:/GNAT/2021/include/c++/10.3.1/streambuf:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/profileapi.h:
 
-C:/GNAT/2021/include/c++/10.3.1/bits/fs_ops.h:
+C:/GNAT/2021/include/c++/10.3.1/tr1/gamma.tcc:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/streambuf_iterator.h:
 
+C:/GNAT/2021/include/c++/10.3.1/bits/fs_ops.h:
+
+C:/GNAT/2021/include/c++/10.3.1/tr1/exp_integral.tcc:
+
 C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/ctype_inline.h:
 
-C:/GNAT/2021/include/c++/10.3.1/bits/stl_uninitialized.h:
+C:/GNAT/2021/include/c++/10.3.1/bits/locale_facets.tcc:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/refwrap.h:
 
-C:/GNAT/2021/include/c++/10.3.1/bits/locale_facets.tcc:
+C:/GNAT/2021/include/c++/10.3.1/bits/stl_uninitialized.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_constants.hpp:
 
 C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/time_members.h:
 
@@ -1602,17 +3193,27 @@ C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/messages_members.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/codecvt.h:
 
+C:/GNAT/2021/include/c++/10.3.1/cmath:
+
 C:/GNAT/2021/include/c++/10.3.1/bits/locale_facets_nonio.tcc:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/locale_conv.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/sec_api/stralign_s.h:
 
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3.hpp:
+
 C:/GNAT/2021/include/c++/10.3.1/bits/unique_ptr.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/gtc/matrix_transform.inl:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_transform.hpp:
 
 C:/GNAT/2021/include/c++/10.3.1/tuple:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/uses_allocator.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/mat4x3.hpp:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/invoke.h:
 
@@ -1620,21 +3221,25 @@ C:/GNAT/2021/include/c++/10.3.1/iomanip:
 
 C:/GNAT/2021/include/c++/10.3.1/pstl/execution_defs.h:
 
-C:/GNAT/2021/include/c++/10.3.1/bits/erase_if.h:
-
 C:/GNAT/2021/include/c++/10.3.1/bits/quoted_string.h:
+
+C:/GNAT/2021/include/c++/10.3.1/bits/erase_if.h:
 
 C:/GNAT/2021/include/c++/10.3.1/sstream:
 
-C:/GNAT/2021/include/c++/10.3.1/bits/allocated_ptr.h:
-
 C:/GNAT/2021/include/c++/10.3.1/istream:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512vbmi2intrin.h:
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool4_precision.hpp:
+
+C:/GNAT/2021/include/c++/10.3.1/bits/allocated_ptr.h:
 
 C:/GNAT/2021/include/c++/10.3.1/ios:
 
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512vbmi2intrin.h:
+
 C:/GNAT/2021/include/c++/10.3.1/bits/basic_ios.h:
+
+C:/GNAT/2021/include/c++/10.3.1/tr1/bessel_function.tcc:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/basic_ios.tcc:
 
@@ -1644,11 +3249,11 @@ C:/GNAT/2021/include/c++/10.3.1/bits/fs_dir.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/ostream.tcc:
 
-C:/dev/nvim/OpenGL/src/IndexBuffer.h:
+C:/GNAT/2021/include/c++/10.3.1/bits/istream.tcc:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/vector.tcc:
 
-C:/GNAT/2021/include/c++/10.3.1/bits/istream.tcc:
+C:/dev/nvim/OpenGL/src/IndexBuffer.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/sstream.tcc:
 
@@ -1664,21 +3269,27 @@ C:/GNAT/2021/include/c++/10.3.1/bits/shared_ptr.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/winnetwk.h:
 
+C:/GNAT/2021/include/c++/10.3.1/tr1/hypergeometric.tcc:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.inl:
+
 C:/GNAT/2021/include/c++/10.3.1/bits/shared_ptr_base.h:
 
 C:/GNAT/2021/include/c++/10.3.1/ext/aligned_buffer.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/stringapiset.h:
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/setup.hpp:
 
 C:/GNAT/2021/include/c++/10.3.1/algorithm:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/rtmintrin.h:
+C:/GNAT/2021/x86_64-w64-mingw32/include/stringapiset.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/algorithmfwd.h:
 
-C:/GNAT/2021/include/c++/10.3.1/bits/hashtable.h:
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/rtmintrin.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/stl_heap.h:
+
+C:/GNAT/2021/include/c++/10.3.1/bits/hashtable.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/stl_tempbuf.h:
 
@@ -1688,11 +3299,15 @@ C:/GNAT/2021/include/c++/10.3.1/bits/uniform_int_dist.h:
 
 C:/GNAT/2021/include/c++/10.3.1/pstl/glue_algorithm_defs.h:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/clzerointrin.h:
-
 C:/GNAT/2021/include/c++/10.3.1/functional:
 
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/clzerointrin.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x4.hpp:
+
 C:/GNAT/2021/include/c++/10.3.1/unordered_map:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/vec2.hpp:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/hashtable_policy.h:
 
@@ -1700,37 +3315,47 @@ C:/GNAT/2021/include/c++/10.3.1/bits/node_handle.h:
 
 C:/GNAT/2021/include/c++/10.3.1/optional:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/utilapiset.h:
+C:/GNAT/2021/include/c++/10.3.1/bits/enable_special_members.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/popcntintrin.h:
 
-C:/GNAT/2021/include/c++/10.3.1/bits/enable_special_members.h:
+C:/GNAT/2021/x86_64-w64-mingw32/include/utilapiset.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/unordered_map.h:
 
 C:/GNAT/2021/include/c++/10.3.1/vector:
 
-C:/GNAT/2021/include/c++/10.3.1/bits/stl_vector.h:
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3.hpp:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/libloaderapi.h:
+C:/dev/nvim/OpenGL/src/Texture.cpp:
+
+C:/GNAT/2021/include/c++/10.3.1/bits/stl_vector.h:
 
 C:/GNAT/2021/include/c++/10.3.1/bits/stl_bvector.h:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/wmmintrin.h:
+C:/GNAT/2021/x86_64-w64-mingw32/include/libloaderapi.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/_mingw_stdarg.h:
+
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/wmmintrin.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/simd/platform.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/windows.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/sdkddkver.h:
 
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_projection.inl:
+
 C:/GNAT/2021/x86_64-w64-mingw32/include/excpt.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint4.hpp:
+
+C:/GNAT/2021/x86_64-w64-mingw32/include/stdarg.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/vaesintrin.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx5124vnniwintrin.h:
-
-C:/GNAT/2021/x86_64-w64-mingw32/include/stdarg.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/windef.h:
 
@@ -1742,15 +3367,19 @@ C:/GNAT/2021/x86_64-w64-mingw32/include/specstrings.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512bwintrin.h:
 
+C:/GNAT/2021/x86_64-w64-mingw32/include/math.h:
+
 C:/GNAT/2021/x86_64-w64-mingw32/include/sal.h:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/vpclmulqdqintrin.h:
-
 C:/GNAT/2021/x86_64-w64-mingw32/include/concurrencysal.h:
+
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/vpclmulqdqintrin.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/driverspecs.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/winnt.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x3_precision.hpp:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/string.h:
 
@@ -1760,9 +3389,9 @@ C:/GNAT/2021/x86_64-w64-mingw32/include/apiset.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/sysinfoapi.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/securitybaseapi.h:
-
 C:/GNAT/2021/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h:
+
+C:/GNAT/2021/x86_64-w64-mingw32/include/securitybaseapi.h:
 
 C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/c++io.h:
 
@@ -1772,11 +3401,11 @@ C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/x86intrin.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/immintrin.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/processthreadsapi.h:
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/mmintrin.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512bf16vlintrin.h:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/mmintrin.h:
+C:/GNAT/2021/x86_64-w64-mingw32/include/processthreadsapi.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/mm_malloc.h:
 
@@ -1792,9 +3421,15 @@ C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/xsavesintrin.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/xsavecintrin.h:
 
+C:/dev/nvim/OpenGL/src/vendor/glm/gtc/constants.inl:
+
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avxintrin.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512fintrin.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double4.hpp:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512pfintrin.h:
 
@@ -1808,15 +3443,17 @@ C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512ifmaintrin.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512ifmavlintrin.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/debugapi.h:
-
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512vbmivlintrin.h:
+
+C:/GNAT/2021/x86_64-w64-mingw32/include/debugapi.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512vbmi2vlintrin.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/pshpack8.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512bitalgintrin.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_trigonometric.inl:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/avx512vp2intersectintrin.h:
 
@@ -1838,7 +3475,11 @@ C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/gfniintrin.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/movdirintrin.h:
 
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.inl:
+
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/waitpkgintrin.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3.hpp:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/cldemoteintrin.h:
 
@@ -1850,13 +3491,19 @@ C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/rdseedintrin.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/adxintrin.h:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/wbnoinvdintrin.h:
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3_precision.hpp:
 
-C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/tbmintrin.h:
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/wbnoinvdintrin.h:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/mm3dnow.h:
 
+C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/tbmintrin.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2.hpp:
+
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/fma4intrin.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2_precision.hpp:
 
 C:/GNAT/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/include/ammintrin.h:
 
@@ -1870,9 +3517,13 @@ C:/GNAT/2021/x86_64-w64-mingw32/include/poppack.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/pshpack2.h:
 
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2.hpp:
+
 C:/GNAT/2021/x86_64-w64-mingw32/include/winbase.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/apisetcconv.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4.hpp:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/minwinbase.h:
 
@@ -1882,31 +3533,45 @@ C:/GNAT/2021/x86_64-w64-mingw32/include/fileapi.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/handleapi.h:
 
+C:/GNAT/2021/x86_64-w64-mingw32/include/heapapi.h:
+
 C:/GNAT/2021/x86_64-w64-mingw32/include/processtopologyapi.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/heapapi.h:
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.inl:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/ioapiset.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/processenv.h:
-
 C:/GNAT/2021/x86_64-w64-mingw32/include/interlockedapi.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4_precision.hpp:
+
+C:/GNAT/2021/x86_64-w64-mingw32/include/processenv.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/winuser.h:
 
+C:/dev/nvim/OpenGL/src/vendor/glm/geometric.hpp:
+
 C:/GNAT/2021/x86_64-w64-mingw32/include/namedpipeapi.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.inl:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/realtimeapiset.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/securityappcontainer.h:
 
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x4.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/vec3.hpp:
+
 C:/GNAT/2021/x86_64-w64-mingw32/include/synchapi.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/systemtopologyapi.h:
 
-C:/GNAT/2021/x86_64-w64-mingw32/include/mcx.h:
+C:/GNAT/2021/x86_64-w64-mingw32/include/assert.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/threadpoolapiset.h:
+
+C:/GNAT/2021/x86_64-w64-mingw32/include/mcx.h:
 
 C:/GNAT/2021/x86_64-w64-mingw32/include/wingdi.h:
 
@@ -1932,18 +3597,204 @@ C:/GNAT/2021/include/c++/10.3.1/fstream:
 
 C:/GNAT/2021/include/c++/10.3.1/x86_64-w64-mingw32/bits/basic_file.h:
 
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double4x4_precision.hpp:
+
 C:/GNAT/2021/include/c++/10.3.1/bits/fstream.tcc:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2_sized.hpp:
 
 C:/dev/nvim/OpenGL/src/Shader.h:
 
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/glm.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp:
+
+C:/GNAT/2021/include/c++/10.3.1/tr1/special_function_util.h:
+
+C:/GNAT/2021/include/c++/10.3.1/tr1/legendre_function.tcc:
+
+C:/GNAT/2021/include/c++/10.3.1/cassert:
+
+C:/GNAT/2021/include/c++/10.3.1/tr1/poly_hermite.tcc:
+
+C:/GNAT/2021/include/c++/10.3.1/tr1/poly_laguerre.tcc:
+
+C:/GNAT/2021/include/c++/10.3.1/tr1/riemann_zeta.tcc:
+
+C:/GNAT/2021/include/c++/10.3.1/climits:
+
+C:/GNAT/2021/include/c++/10.3.1/cfloat:
+
+C:/GNAT/2021/x86_64-w64-mingw32/include/float.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/fwd.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/qualifier.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x2.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool2.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec2.inl:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/compute_vector_relational.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float2_precision.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int2.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_int_sized.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x4.inl:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint2_sized.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/scalar_uint_sized.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec3.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.inl:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_bool3_precision.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float3_precision.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_double3_precision.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int3.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_uint3_sized.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x2_precision.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec4.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.inl:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/common.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_float4_precision.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_packing.inl:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/vector_int4.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/mat2x2.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2.hpp:
+
+C:/dev/nvim/OpenGL/src/VertexBufferLayout.cpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat2x2.inl:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/matrix.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/mat2x3.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x3.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/mat2x4.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x4_precision.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x4_precision.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/mat3x2.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x2_precision.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat3x3.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x3_precision.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x3.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/mat3x4.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double3x4.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float3x4.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x2.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x2_precision.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_mat4x3.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x3_precision.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float4x4_precision.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_matrix.inl:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_geometric.inl:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_vec1.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_exponential.inl:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/vector_relational.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/_vectorize.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_common.inl:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_double2x2_precision.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_float2x2_precision.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/packing.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/type_half.inl:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/detail/func_integer.inl:
+
 C:/dev/nvim/OpenGL/src/VertexArray.h:
 
+C:/dev/nvim/OpenGL/src/VertexBuffer.h:
+
 C:/dev/nvim/OpenGL/src/Texture.h:
+
+C:/dev/nvim/OpenGL/src/VertexBufferLayout.h:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/gtc/matrix_transform.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_projection.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_clip_space.hpp:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_clip_space.inl:
+
+C:/dev/nvim/OpenGL/src/vendor/glm/ext/matrix_transform.inl:
+
+C:/dev/nvim/OpenGL/src/IndexBuffer.cpp:
 
 C:/dev/nvim/OpenGL/src/Renderer.cpp:
 
 C:/dev/nvim/OpenGL/src/Shader.cpp:
 
+C:/dev/nvim/OpenGL/src/vendor/stb_image/stb_image.h:
+
 C:/dev/nvim/OpenGL/src/VertexArray.cpp:
 
-C:/dev/nvim/OpenGL/src/VertexBufferLayout.cpp:
+C:/dev/nvim/OpenGL/src/vendor/stb_image/stb_image.cpp:

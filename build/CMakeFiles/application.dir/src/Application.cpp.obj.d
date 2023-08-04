@@ -535,4 +535,8 @@ CMakeFiles/application.dir/src/Application.cpp.obj: \
  c:\dev\nvim\opengl\src\vendor\glm\ext\matrix_clip_space.inl \
  c:\dev\nvim\opengl\src\vendor\glm\ext\matrix_transform.hpp \
  c:\dev\nvim\opengl\src\vendor\glm\ext\matrix_transform.inl \
- C:/dev/nvim/OpenGL/src/vendor/glm/gtc/matrix_transform.inl
+ C:/dev/nvim/OpenGL/src/vendor/glm/gtc/matrix_transform.inl \
+ C:/dev/nvim/OpenGL/src/vendor/imgui/imgui.h \
+ C:/dev/nvim/OpenGL/src/vendor/imgui/imconfig.h \
+ C:/dev/nvim/OpenGL/src/vendor/imgui/imgui_impl_glfw.h \
+ C:/dev/nvim/OpenGL/src/vendor/imgui/imgui_impl_opengl3.h

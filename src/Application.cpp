@@ -23,6 +23,9 @@
 #include "glm/glm.hpp"
 #include "glm/gtc/matrix_transform.hpp"
 
+#include "imgui/imgui.h"
+#include "imgui/imgui_impl_glfw.h"
+#include "imgui/imgui_impl_opengl3.h"
 void ClearAll() {
   GLCALL(glUseProgram(0));
   GLCALL(glBindBuffer(GL_ARRAY_BUFFER, 0));
@@ -125,9 +128,40 @@ int main(void) {
     ClearAll();
     /* Loop until the user closes the window */
     Renderer renderer;
+    const char *glsl_version = "#version 330";
+    IMGUI_CHECKVERSION();
+    ImGui::CreateContext();
+    ImGuiIO &io = ImGui::GetIO();
+    (void)io;
+    io.ConfigFlags |=
+        ImGuiConfigFlags_NavEnableKeyboard; // Enable Keyboard Controls
+    io.ConfigFlags |=
+        ImGuiConfigFlags_NavEnableGamepad; // Enable Gamepad Controls
+    ImGui::StyleColorsDark();
+    ImGui_ImplGlfw_InitForOpenGL(window, true);
+    ImGui_ImplOpenGL3_Init(glsl_version);
+    ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
+    // Our state
+    bool show_demo_window = true;
+    bool show_another_window = false;
+    glm::vec3 translation(200, 200, 0);
     do {
       /* Render here */
       renderer.Clear();
+      glm::mat4 model = glm::translate(glm::mat4(1.0f), translation);
+      glm::mat4 u_MVP = proj * view * model;
+      // change color
+      if (r > 1.0f) {
+        increment = -0.05f;
+      } else if (r < 0.0f) {
+        increment = 0.05f;
+      }
+      r += increment;
+
+      ImGui_ImplOpenGL3_NewFrame();
+      ImGui_ImplGlfw_NewFrame();
+      ImGui::NewFrame();
+
       shader.Bind();
       // shader.SetUniform4f("u_Color", r, 0.3f, 0.8f, 1.0f);
       /* Core Profile */
@@ -139,24 +173,52 @@ int main(void) {
       0));
       */
       ib.Bind();
+      shader.SetUniformMat4f("u_MVP", u_MVP);
       renderer.Draw(va, ib, shader);
+      static float x = 0.0f;
+      static float y = 0.0f;
+      static int counter = 0;
+
+      ImGui::Begin("Hello, world!"); // Create a window called "Hello, world!"
+                                     // and append into it.
+
+      ImGui::Text("This is some useful text."); // Display some text (you can
+                                                // use a format strings too)
+      ImGui::SliderFloat(
+          "x-Axis", &translation.x, 0.0f,
+          768.0f); // Edit 1 float using a slider from 0.0f to 1.0f
+      ImGui::SliderFloat(
+          "y-Axis", &translation.y, 0.0f,
+          1024.0f); // Edit 1 float using a slider from 0.0f to 1.0f
+      ImGui::ColorEdit3(
+          "clear color",
+          (float *)&clear_color); // Edit 3 floats representing a color
+
+      if (ImGui::Button("Button")) // Buttons return true when clicked (most
+                                   // widgets return true when edited/activated)
+        counter++;
+      ImGui::SameLine();
+      ImGui::Text("counter = %d", counter);
+
+      ImGui::Text("Application average %.3f ms/frame (%.1f FPS)",
+                  1000.0f / io.Framerate, io.Framerate);
+      ImGui::End();
+
+      ImGui::Render();
+      ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+
       // GLCALL(glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr));
       /* Swap front and back buffers */
       glfwSwapBuffers(window);
 
       /* Poll for and process events */
       glfwPollEvents();
-
-      // change color
-      if (r > 1.0f) {
-        increment = -0.05f;
-      } else if (r < 0.0f) {
-        increment = 0.05f;
-      }
-      r += increment;
     } while (glfwWindowShouldClose(window) == 0 &&
              glfwGetKey(window, GLFW_KEY_ESCAPE) != GLFW_PRESS);
-
+    // Cleanup
+    ImGui_ImplOpenGL3_Shutdown();
+    ImGui_ImplGlfw_Shutdown();
+    ImGui::DestroyContext();
     glfwTerminate();
   }
   return 0;
