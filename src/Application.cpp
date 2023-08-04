@@ -69,10 +69,10 @@ int main(void) {
     };
     */
     float positions[] = {
-        -1.0f, -1.0f, 0.0f, 0.0f, // 0
-        1.0f,  -1.0f, 1.0f, 0.0f, // 1
-        1.0f,  1.0f,  1.0f, 1.0f, // 2
-        -1.0f, 1.0f,  0.0f, 1.0f  // 3
+        0.0f,   0.0f,   0.0f, 0.0f, // 0
+        500.0f, 0.0f,   1.0f, 0.0f, // 1
+        500.0f, 500.0f, 1.0f, 1.0f, // 2
+        0.0f,   500.0f, 0.0f, 1.0f  // 3
     };
 
     // index buffer
@@ -97,8 +97,20 @@ int main(void) {
     va.AddBuffer(vb, layout);
 
     IndexBuffer ib(indices, 6);
+    // projection matrix: maps the coordinates to a specific screen space by
+    // multipliing with a matrix (orthographic projection) the function
+    // parameters are: left, right, bottom, top, near, far and the resulting
+    // matrix is in form of a 4x4 matrix with 2 / (right - left), ... on the
+    // diagonal and 1 on the bottom right corner
+    glm::mat4 proj = glm::ortho(0.0f, 768.0f, 0.0f, 1024.0f, -1.0f, 1.0f);
+    // view matrix: moves the whole scene around to the right by 100
+    // units which is the same as rotating the camera to the left by 100
+    glm::mat4 view = glm::translate(glm::mat4(1.0f), glm::vec3(-100, 0, 0));
+    // model matrix: moves the object around by 200 units to the right and 200
+    // to the top
+    glm::mat4 model = glm::translate(glm::mat4(1.0f), glm::vec3(200, 200, 0));
 
-    glm::mat4 proj = glm::ortho(-2.0f, 2.0f, -1.5f, 1.5f, -1.0f, 1.0f);
+    glm::mat4 u_MVP = proj * view * model;
 
     Shader shader = Shader("res/shaders/Basic.shader");
     shader.Bind();
@@ -107,7 +119,7 @@ int main(void) {
     Texture texture("res/textures/texture.png");
     texture.Bind();
     shader.SetUniform1i("u_Texture", 0);
-    shader.SetUniformMat4f("u_MVP", proj);
+    shader.SetUniformMat4f("u_MVP", u_MVP);
     float r = 0.0f;
     float increment = 0.05f;
     ClearAll();
