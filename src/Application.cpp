@@ -72,10 +72,10 @@ int main(void) {
     };
     */
     float positions[] = {
-        0.0f,   0.0f,   0.0f, 0.0f, // 0
-        500.0f, 0.0f,   1.0f, 0.0f, // 1
-        500.0f, 500.0f, 1.0f, 1.0f, // 2
-        0.0f,   500.0f, 0.0f, 1.0f  // 3
+        -250.0f, -250.0f, 0.0f, 0.0f, // 0
+        250.0f,  -250.0f, 1.0f, 0.0f, // 1
+        250.0f,  250.0f,  1.0f, 1.0f, // 2
+        -250.0f, 250.0f,  0.0f, 1.0f  // 3
     };
 
     // index buffer
@@ -108,12 +108,9 @@ int main(void) {
     glm::mat4 proj = glm::ortho(0.0f, 768.0f, 0.0f, 1024.0f, -1.0f, 1.0f);
     // view matrix: moves the whole scene around to the right by 100
     // units which is the same as rotating the camera to the left by 100
-    glm::mat4 view = glm::translate(glm::mat4(1.0f), glm::vec3(-100, 0, 0));
+    glm::mat4 view = glm::translate(glm::mat4(1.0f), glm::vec3(0, 0, 0));
     // model matrix: moves the object around by 200 units to the right and 200
     // to the top
-    glm::mat4 model = glm::translate(glm::mat4(1.0f), glm::vec3(200, 200, 0));
-
-    glm::mat4 u_MVP = proj * view * model;
 
     Shader shader = Shader("res/shaders/Basic.shader");
     shader.Bind();
@@ -122,7 +119,6 @@ int main(void) {
     Texture texture("res/textures/texture.png");
     texture.Bind();
     shader.SetUniform1i("u_Texture", 0);
-    shader.SetUniformMat4f("u_MVP", u_MVP);
     float r = 0.0f;
     float increment = 0.05f;
     ClearAll();
@@ -144,12 +140,11 @@ int main(void) {
     // Our state
     bool show_demo_window = true;
     bool show_another_window = false;
-    glm::vec3 translation(200, 200, 0);
+    glm::vec3 translationA(200, 200, 0);
+    glm::vec3 translationB(400, 400, 0);
     do {
       /* Render here */
       renderer.Clear();
-      glm::mat4 model = glm::translate(glm::mat4(1.0f), translation);
-      glm::mat4 u_MVP = proj * view * model;
       // change color
       if (r > 1.0f) {
         increment = -0.05f;
@@ -161,44 +156,31 @@ int main(void) {
       ImGui_ImplOpenGL3_NewFrame();
       ImGui_ImplGlfw_NewFrame();
       ImGui::NewFrame();
-
-      shader.Bind();
-      // shader.SetUniform4f("u_Color", r, 0.3f, 0.8f, 1.0f);
-      /* Core Profile */
-      va.Bind();
-      /* Compat Profile
-      GLCALL(glBindBuffer(GL_ARRAY_BUFFER, buffer));
-      GLCALL(glEnableVertexAttribArray(0));
-      GLCALL(glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(float) * 2,
-      0));
-      */
-      ib.Bind();
-      shader.SetUniformMat4f("u_MVP", u_MVP);
-      renderer.Draw(va, ib, shader);
-      static float x = 0.0f;
-      static float y = 0.0f;
-      static int counter = 0;
+      {
+        glm::mat4 model = glm::translate(glm::mat4(1.0f), translationA);
+        glm::mat4 u_MVP = proj * view * model;
+        shader.Bind();
+        shader.SetUniformMat4f("u_MVP", u_MVP);
+        renderer.Draw(va, ib, shader);
+      }
+      {
+        glm::mat4 model = glm::translate(glm::mat4(1.0f), translationB);
+        glm::mat4 u_MVP = proj * view * model;
+        shader.Bind();
+        shader.SetUniformMat4f("u_MVP", u_MVP);
+        renderer.Draw(va, ib, shader);
+      }
 
       ImGui::Begin("Hello, world!"); // Create a window called "Hello, world!"
                                      // and append into it.
 
       ImGui::Text("This is some useful text."); // Display some text (you can
                                                 // use a format strings too)
-      ImGui::SliderFloat(
-          "x-Axis", &translation.x, 0.0f,
-          768.0f); // Edit 1 float using a slider from 0.0f to 1.0f
-      ImGui::SliderFloat(
-          "y-Axis", &translation.y, 0.0f,
-          1024.0f); // Edit 1 float using a slider from 0.0f to 1.0f
+      ImGui::SliderFloat3("logo a", &translationA.x, 0.0f, 1080.0f);
+      ImGui::SliderFloat3("logo b", &translationB.x, 0.0f, 1080.0f);
       ImGui::ColorEdit3(
           "clear color",
           (float *)&clear_color); // Edit 3 floats representing a color
-
-      if (ImGui::Button("Button")) // Buttons return true when clicked (most
-                                   // widgets return true when edited/activated)
-        counter++;
-      ImGui::SameLine();
-      ImGui::Text("counter = %d", counter);
 
       ImGui::Text("Application average %.3f ms/frame (%.1f FPS)",
                   1000.0f / io.Framerate, io.Framerate);
