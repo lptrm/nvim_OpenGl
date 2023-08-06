@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -std=c++17 -Isrc -Isrc/vendor -IDepencies/GLEW/include -IDepencies/GLFW/include -DGLEW_STATIC -g
+CXXFLAGS = -std=c++17 -Isrc/tests -Isrc -Isrc/vendor -IDepencies/GLEW/include -IDepencies/GLFW/include -DGLEW_STATIC -g
 LDFLAGS = -LDepencies/GLEW/lib/Release/x64 -LDepencies/GLFW/lib-mingw-w64 -lglew32s -lglfw3 -lopengl32 -lUser32 -lGdi32 -lShell32 
 SOURCE = src/Application.cpp \
 					src/Shader.cpp \
@@ -17,7 +17,8 @@ SOURCE = src/Application.cpp \
 					src/vendor/imgui/imgui_impl_opengl3.cpp \
 					src/vendor/imgui/imgui_tables.cpp \
 					src/vendor/imgui/imgui_widgets.cpp \
-					src/tests/TestClearColor.cpp
+					src/tests/TestClearColor.cpp \
+					src/tests/Test.cpp
 
 all: application.exe
 

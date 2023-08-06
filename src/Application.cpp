@@ -1,5 +1,4 @@
 // for opengl function calls
-#include "tests/TestClearColor.h"
 #include <GL/glew.h>
 // for easy window creation
 #include <GLFW/glfw3.h>
@@ -27,6 +26,8 @@
 #include "imgui/imgui.h"
 #include "imgui/imgui_impl_glfw.h"
 #include "imgui/imgui_impl_opengl3.h"
+#include "tests/Test.h"
+#include "tests/TestClearColor.h"
 void ClearAll() {
   GLCALL(glUseProgram(0));
   GLCALL(glBindBuffer(GL_ARRAY_BUFFER, 0));
@@ -85,7 +86,11 @@ int main(void) {
     ImGui_ImplGlfw_InitForOpenGL(window, true);
     ImGui_ImplOpenGL3_Init(glsl_version);
 
+    test::Test *currentTest = nullptr;
+    test::TestMenu *menu = new test::TestMenu(currentTest);
+    currentTest = menu;
     test::TestClearColor test;
+    menu->RegisterTest<test::TestClearColor>("Clear Color");
 
     do {
       renderer.Clear();
@@ -97,8 +102,17 @@ int main(void) {
       ImGui_ImplGlfw_NewFrame();
       ImGui::NewFrame();
 
-      test.OnImGuiRender();
-
+      if (currentTest) {
+        currentTest->OnUpdate(0.0f);
+        currentTest->OnRender();
+        ImGui::Begin("Test");
+        if (currentTest != menu && ImGui::Button("<-")) {
+          delete currentTest;
+          currentTest = menu;
+        }
+        currentTest->OnImGuiRender();
+        ImGui::End();
+      }
       ImGui::Render();
       ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 

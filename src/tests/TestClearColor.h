@@ -1,8 +1,6 @@
 #pragma once
 
-#include "Renderer.h"
 #include "Test.h"
-#include "imgui/imgui.h"
 
 namespace test {
 class TestClearColor : public Test {
