@@ -89,14 +89,10 @@ int main(void) {
     test::Test *currentTest = nullptr;
     test::TestMenu *menu = new test::TestMenu(currentTest);
     currentTest = menu;
-    test::TestClearColor test;
     menu->RegisterTest<test::TestClearColor>("Clear Color");
 
     do {
       renderer.Clear();
-
-      test.OnUpdate(0.0f);
-      test.OnRender();
 
       ImGui_ImplOpenGL3_NewFrame();
       ImGui_ImplGlfw_NewFrame();
