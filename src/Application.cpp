@@ -1,4 +1,5 @@
 // for opengl function calls
+#include "tests/TestTexture.h"
 #include <GL/glew.h>
 // for easy window creation
 #include <GLFW/glfw3.h>
@@ -28,6 +29,7 @@
 #include "imgui/imgui_impl_opengl3.h"
 #include "tests/Test.h"
 #include "tests/TestClearColor.h"
+#include "tests/TestTexture.h"
 void ClearAll() {
   GLCALL(glUseProgram(0));
   GLCALL(glBindBuffer(GL_ARRAY_BUFFER, 0));
@@ -90,6 +92,7 @@ int main(void) {
     test::TestMenu *menu = new test::TestMenu(currentTest);
     currentTest = menu;
     menu->RegisterTest<test::TestClearColor>("Clear Color");
+    menu->RegisterTest<test::TestTexture>("Texture Test");
 
     do {
       renderer.Clear();

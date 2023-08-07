@@ -14,10 +14,6 @@ void TestMenu::OnImGuiRender() {
     }
   }
 }
-template <typename T> void TestMenu::RegisterTest(const std::string &name) {
-  std::cout << "Registering test " << name << std::endl;
-  m_Tests.push_back(std::make_pair(name, []() { return new T(); }));
-}
 
 // Spezialisierungen der Funktionsschablone (wenn erforderlich)
 template void

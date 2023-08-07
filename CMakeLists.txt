@@ -9,6 +9,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include_directories(Depencies/GLEW/include)
 include_directories(Depencies/GLFW/include)
 include_directories(src/vendor)
+include_directories(src/test)
+include_directories(src)
 
 add_definitions(-DGLEW_STATIC)
 
@@ -30,6 +32,9 @@ set(SOURCES
  src/vendor/imgui/imgui_impl_opengl3.cpp
  src/vendor/imgui/imgui_tables.cpp
  src/vendor/imgui/imgui_widgets.cpp
+ src/tests/Test.cpp
+ src/tests/TestClearColor.cpp
+ src/tests/TestTexture.cpp
   )
 
 # Füge die Bibliotheksverzeichnisse hinzu (jetzt relativ zum Projektverzeichnis)
