@@ -5,6 +5,9 @@ project(OpenGLProject)
 # Setze den C++-Standard auf C++17
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Füge die Pfade für die Header-Dateien hinzu
 include_directories(Depencies/GLEW/include)
 include_directories(Depencies/GLFW/include)
@@ -48,6 +51,9 @@ add_executable(application ${SOURCES})
 
 # Füge die Bibliotheken hinzu, die zum Linken benötigt werden
 target_link_libraries(application glew32s glfw3 opengl32 User32 Gdi32 Shell32)
+
+# Füge Debugging-Flags hinzu
+# target_compile_options(application PRIVATE -g)
 
 # Kompiliere und linke die Anwendung statisch
 set_target_properties(application PROPERTIES LINK_FLAGS "-static")

@@ -1,7 +1,0 @@
-[
-  {
-    "directory": "C:/dev/nvim/OpenGL",
-    "command": "g++ -std=c++17 -g -Isrc -Isrc/vendor -IDepencies/GLEW/include -IDepencies/GLFW/include -DGLEW_STATIC src/Application.cpp src/IndexBuffer.cpp src/Renderer.cpp src/VertexArray.cpp src/VertexBuffer.cpp src/VertexBufferLayout.cpp -o application.exe -LDepencies/GLEW/lib/Release/x64 -LDepencies/GLFW/lib-mingw-w64 -lglew32s -lglfw3 -lopengl32 -lUser32 -lGdi32 -lShell32 -mwindows",
-    "file": "src/Application.cpp"
-  }
-]

@@ -6,5 +6,5 @@ CXX_DEFINES = -DGLEW_STATIC
 
 CXX_INCLUDES = @CMakeFiles/application.dir/includes_CXX.rsp
 
-CXX_FLAGS = -std=gnu++17
+CXX_FLAGS = -g -std=gnu++17
 
