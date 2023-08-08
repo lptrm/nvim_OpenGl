@@ -1,5 +1,20 @@
 CMakeFiles/application.dir/src/Shader.cpp.obj: \
  C:/dev/nvim/OpenGL/src/Shader.cpp C:/dev/nvim/OpenGL/src/Shader.h \
+ C:/dev/nvim/OpenGL/Depencies/GLEW/include/GL/glew.h \
+ c:\gnat\2021\x86_64-w64-mingw32\include\inttypes.h \
+ c:\gnat\2021\x86_64-w64-mingw32\include\crtdefs.h \
+ c:\gnat\2021\x86_64-w64-mingw32\include\corecrt.h \
+ c:\gnat\2021\x86_64-w64-mingw32\include\_mingw.h \
+ c:\gnat\2021\x86_64-w64-mingw32\include\_mingw_mac.h \
+ c:\gnat\2021\x86_64-w64-mingw32\include\_mingw_secapi.h \
+ c:\gnat\2021\x86_64-w64-mingw32\include\vadefs.h \
+ c:\gnat\2021\x86_64-w64-mingw32\include\sdks/_mingw_ddk.h \
+ c:\gnat\2021\lib\gcc\x86_64-w64-mingw32\10.3.1\include\stdint.h \
+ c:\gnat\2021\x86_64-w64-mingw32\include\stdint.h \
+ c:\gnat\2021\lib\gcc\x86_64-w64-mingw32\10.3.1\include\stddef.h \
+ c:\gnat\2021\x86_64-w64-mingw32\include\stddef.h \
+ c:\gnat\2021\x86_64-w64-mingw32\include\gl\glu.h \
+ c:\gnat\2021\x86_64-w64-mingw32\include\gl\gl.h \
  C:/dev/nvim/OpenGL/src/vendor/glm/glm.hpp \
  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
  c:\gnat\2021\include\c++\10.3.1\cmath \
@@ -10,13 +25,6 @@ CMakeFiles/application.dir/src/Shader.cpp.obj: \
  c:\gnat\2021\include\c++\10.3.1\bits\cpp_type_traits.h \
  c:\gnat\2021\include\c++\10.3.1\ext\type_traits.h \
  c:\gnat\2021\x86_64-w64-mingw32\include\math.h \
- c:\gnat\2021\x86_64-w64-mingw32\include\crtdefs.h \
- c:\gnat\2021\x86_64-w64-mingw32\include\corecrt.h \
- c:\gnat\2021\x86_64-w64-mingw32\include\_mingw.h \
- c:\gnat\2021\x86_64-w64-mingw32\include\_mingw_mac.h \
- c:\gnat\2021\x86_64-w64-mingw32\include\_mingw_secapi.h \
- c:\gnat\2021\x86_64-w64-mingw32\include\vadefs.h \
- c:\gnat\2021\x86_64-w64-mingw32\include\sdks/_mingw_ddk.h \
  c:\gnat\2021\include\c++\10.3.1\bits\std_abs.h \
  c:\gnat\2021\x86_64-w64-mingw32\include\stdlib.h \
  c:\gnat\2021\x86_64-w64-mingw32\include\corecrt_wstdlib.h \
@@ -60,12 +68,8 @@ CMakeFiles/application.dir/src/Shader.cpp.obj: \
  c:\gnat\2021\x86_64-w64-mingw32\include\assert.h \
  c:\gnat\2021\include\c++\10.3.1\cstdlib \
  c:\gnat\2021\include\c++\10.3.1\cstddef \
- c:\gnat\2021\lib\gcc\x86_64-w64-mingw32\10.3.1\include\stddef.h \
- c:\gnat\2021\x86_64-w64-mingw32\include\stddef.h \
  c:\dev\nvim\opengl\src\vendor\glm\simd\platform.h \
  c:\gnat\2021\include\c++\10.3.1\cstdint \
- c:\gnat\2021\lib\gcc\x86_64-w64-mingw32\10.3.1\include\stdint.h \
- c:\gnat\2021\x86_64-w64-mingw32\include\stdint.h \
  c:\gnat\2021\include\c++\10.3.1\climits \
  c:\gnat\2021\include\c++\10.3.1\cfloat \
  c:\gnat\2021\lib\gcc\x86_64-w64-mingw32\10.3.1\include\float.h \
@@ -282,9 +286,6 @@ CMakeFiles/application.dir/src/Shader.cpp.obj: \
  c:\gnat\2021\include\c++\10.3.1\bits\erase_if.h \
  C:/dev/nvim/OpenGL/src/Renderer.h C:/dev/nvim/OpenGL/src/IndexBuffer.h \
  C:/dev/nvim/OpenGL/Depencies/GLEW/include/gl/glew.h \
- c:\gnat\2021\x86_64-w64-mingw32\include\inttypes.h \
- c:\gnat\2021\x86_64-w64-mingw32\include\gl\glu.h \
- c:\gnat\2021\x86_64-w64-mingw32\include\gl\gl.h \
  C:/dev/nvim/OpenGL/src/VertexArray.h \
  C:/dev/nvim/OpenGL/src/VertexBuffer.h \
  c:\gnat\2021\include\c++\10.3.1\fstream \

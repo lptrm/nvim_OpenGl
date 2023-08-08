@@ -1,6 +1,6 @@
 CMakeFiles/application.dir/src/Application.cpp.obj: \
  C:/dev/nvim/OpenGL/src/Application.cpp \
- C:/dev/nvim/OpenGL/src/tests/TestTexture.h \
+ C:/dev/nvim/OpenGL/src/tests/TestTexture2D.h \
  C:/dev/nvim/OpenGL/src/IndexBuffer.h C:/dev/nvim/OpenGL/src/Renderer.h \
  C:/dev/nvim/OpenGL/Depencies/GLEW/include/gl/glew.h \
  c:\gnat\2021\x86_64-w64-mingw32\include\inttypes.h \
@@ -18,6 +18,7 @@ CMakeFiles/application.dir/src/Application.cpp.obj: \
  c:\gnat\2021\x86_64-w64-mingw32\include\gl\glu.h \
  c:\gnat\2021\x86_64-w64-mingw32\include\gl\gl.h \
  C:/dev/nvim/OpenGL/src/Shader.h \
+ C:/dev/nvim/OpenGL/Depencies/GLEW/include/GL/glew.h \
  C:/dev/nvim/OpenGL/src/vendor/glm/glm.hpp \
  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
  c:\gnat\2021\include\c++\10.3.1\cmath \
@@ -361,7 +362,6 @@ CMakeFiles/application.dir/src/Application.cpp.obj: \
  c:\gnat\2021\include\c++\10.3.1\backward\auto_ptr.h \
  c:\gnat\2021\include\c++\10.3.1\pstl\glue_memory_defs.h \
  c:\gnat\2021\include\c++\10.3.1\pstl\execution_defs.h \
- C:/dev/nvim/OpenGL/Depencies/GLEW/include/GL/glew.h \
  C:/dev/nvim/OpenGL/Depencies/GLFW/include/GLFW/glfw3.h \
  c:\gnat\2021\include\c++\10.3.1\filesystem \
  c:\gnat\2021\include\c++\10.3.1\bits\fs_fwd.h \
@@ -551,4 +551,5 @@ CMakeFiles/application.dir/src/Application.cpp.obj: \
  c:\gnat\2021\include\c++\10.3.1\bits\fstream.tcc \
  C:/dev/nvim/OpenGL/src/vendor/imgui/imgui_impl_glfw.h \
  C:/dev/nvim/OpenGL/src/vendor/imgui/imgui_impl_opengl3.h \
+ C:/dev/nvim/OpenGL/src/tests/TestBatchRendering.h \
  C:/dev/nvim/OpenGL/src/tests/TestClearColor.h

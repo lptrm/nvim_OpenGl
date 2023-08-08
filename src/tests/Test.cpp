@@ -15,8 +15,4 @@ void TestMenu::OnImGuiRender() {
   }
 }
 
-// Spezialisierungen der Funktionsschablone (wenn erforderlich)
-template void
-TestMenu::RegisterTest<test::TestClearColor>(const std::string &name);
-// Weitere Spezialisierungen falls notwendig...
 } // namespace test

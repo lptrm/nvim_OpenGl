@@ -345,6 +345,30 @@ src/tests/Test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/tests/Test.cpp.s
 .PHONY : src/tests/Test.cpp.s
 
+src/tests/TestBatchRendering.obj: src/tests/TestBatchRendering.cpp.obj
+.PHONY : src/tests/TestBatchRendering.obj
+
+# target to build an object file
+src/tests/TestBatchRendering.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/tests/TestBatchRendering.cpp.obj
+.PHONY : src/tests/TestBatchRendering.cpp.obj
+
+src/tests/TestBatchRendering.i: src/tests/TestBatchRendering.cpp.i
+.PHONY : src/tests/TestBatchRendering.i
+
+# target to preprocess a source file
+src/tests/TestBatchRendering.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/tests/TestBatchRendering.cpp.i
+.PHONY : src/tests/TestBatchRendering.cpp.i
+
+src/tests/TestBatchRendering.s: src/tests/TestBatchRendering.cpp.s
+.PHONY : src/tests/TestBatchRendering.s
+
+# target to generate assembly for a file
+src/tests/TestBatchRendering.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/tests/TestBatchRendering.cpp.s
+.PHONY : src/tests/TestBatchRendering.cpp.s
+
 src/tests/TestClearColor.obj: src/tests/TestClearColor.cpp.obj
 .PHONY : src/tests/TestClearColor.obj
 
@@ -369,29 +393,29 @@ src/tests/TestClearColor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/tests/TestClearColor.cpp.s
 .PHONY : src/tests/TestClearColor.cpp.s
 
-src/tests/TestTexture.obj: src/tests/TestTexture.cpp.obj
-.PHONY : src/tests/TestTexture.obj
+src/tests/TestTexture2D.obj: src/tests/TestTexture2D.cpp.obj
+.PHONY : src/tests/TestTexture2D.obj
 
 # target to build an object file
-src/tests/TestTexture.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/tests/TestTexture.cpp.obj
-.PHONY : src/tests/TestTexture.cpp.obj
+src/tests/TestTexture2D.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/tests/TestTexture2D.cpp.obj
+.PHONY : src/tests/TestTexture2D.cpp.obj
 
-src/tests/TestTexture.i: src/tests/TestTexture.cpp.i
-.PHONY : src/tests/TestTexture.i
+src/tests/TestTexture2D.i: src/tests/TestTexture2D.cpp.i
+.PHONY : src/tests/TestTexture2D.i
 
 # target to preprocess a source file
-src/tests/TestTexture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/tests/TestTexture.cpp.i
-.PHONY : src/tests/TestTexture.cpp.i
+src/tests/TestTexture2D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/tests/TestTexture2D.cpp.i
+.PHONY : src/tests/TestTexture2D.cpp.i
 
-src/tests/TestTexture.s: src/tests/TestTexture.cpp.s
-.PHONY : src/tests/TestTexture.s
+src/tests/TestTexture2D.s: src/tests/TestTexture2D.cpp.s
+.PHONY : src/tests/TestTexture2D.s
 
 # target to generate assembly for a file
-src/tests/TestTexture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/tests/TestTexture.cpp.s
-.PHONY : src/tests/TestTexture.cpp.s
+src/tests/TestTexture2D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/application.dir/build.make CMakeFiles/application.dir/src/tests/TestTexture2D.cpp.s
+.PHONY : src/tests/TestTexture2D.cpp.s
 
 src/vendor/imgui/imgui.obj: src/vendor/imgui/imgui.cpp.obj
 .PHONY : src/vendor/imgui/imgui.obj
@@ -621,12 +645,15 @@ help:
 	@echo "... src/tests/Test.obj"
 	@echo "... src/tests/Test.i"
 	@echo "... src/tests/Test.s"
+	@echo "... src/tests/TestBatchRendering.obj"
+	@echo "... src/tests/TestBatchRendering.i"
+	@echo "... src/tests/TestBatchRendering.s"
 	@echo "... src/tests/TestClearColor.obj"
 	@echo "... src/tests/TestClearColor.i"
 	@echo "... src/tests/TestClearColor.s"
-	@echo "... src/tests/TestTexture.obj"
-	@echo "... src/tests/TestTexture.i"
-	@echo "... src/tests/TestTexture.s"
+	@echo "... src/tests/TestTexture2D.obj"
+	@echo "... src/tests/TestTexture2D.i"
+	@echo "... src/tests/TestTexture2D.s"
 	@echo "... src/vendor/imgui/imgui.obj"
 	@echo "... src/vendor/imgui/imgui.i"
 	@echo "... src/vendor/imgui/imgui.s"

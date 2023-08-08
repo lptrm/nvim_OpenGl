@@ -34,7 +34,8 @@ set(SOURCES
  src/vendor/imgui/imgui_widgets.cpp
  src/tests/Test.cpp
  src/tests/TestClearColor.cpp
- src/tests/TestTexture.cpp
+ src/tests/TestTexture2D.cpp
+ src/tests/TestBatchRendering.cpp
   )
 
 # Füge die Bibliotheksverzeichnisse hinzu (jetzt relativ zum Projektverzeichnis)

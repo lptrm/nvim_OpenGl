@@ -17,6 +17,7 @@ CMakeFiles/application.dir/src/Texture.cpp.obj: \
  c:\gnat\2021\x86_64-w64-mingw32\include\gl\glu.h \
  c:\gnat\2021\x86_64-w64-mingw32\include\gl\gl.h \
  C:/dev/nvim/OpenGL/src/Shader.h \
+ C:/dev/nvim/OpenGL/Depencies/GLEW/include/GL/glew.h \
  C:/dev/nvim/OpenGL/src/vendor/glm/glm.hpp \
  C:/dev/nvim/OpenGL/src/vendor/glm/detail/_fixes.hpp \
  c:\gnat\2021\include\c++\10.3.1\cmath \

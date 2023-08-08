@@ -18,7 +18,7 @@ SOURCE = src/Application.cpp \
 					src/vendor/imgui/imgui_tables.cpp \
 					src/vendor/imgui/imgui_widgets.cpp \
 					src/tests/TestClearColor.cpp \
-					src/tests/TestTexture.cpp \
+					src/tests/TestTexture2D.cpp \
 					src/tests/Test.cpp
 
 all: application.exe
